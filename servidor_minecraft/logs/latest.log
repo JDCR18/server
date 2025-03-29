@@ -124,3 +124,22 @@
 [29Mar2025 21:22:52.483] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: home/codespace/.python/current/bin/python3 /workspaces/server/msx.py<--[HERE]
 [29Mar2025 21:26:05.538] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: danae1108[/127.30.101.95:38573] logged in with entity id 309 at (51.5, 103.0, 33.5)
 [29Mar2025 21:26:05.576] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: danae1108 joined the game
+[29Mar2025 21:35:14.862] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Ina[/127.193.163.85:36315] logged in with entity id 1988 at (44.5, 98.0, 23.5)
+[29Mar2025 21:35:14.866] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ina joined the game
+[29Mar2025 21:35:54.011] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ina burned to death
+[29Mar2025 21:36:35.628] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ina was blown up by Creeper
+[29Mar2025 21:36:35.629] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: danae1108 was blown up by Creeper
+[29Mar2025 21:36:50.409] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ina lost connection: Disconnected
+[29Mar2025 21:36:50.410] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ina left the game
+[29Mar2025 21:36:56.007] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: danae1108 lost connection: Disconnected
+[29Mar2025 21:36:56.007] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: danae1108 left the game
+[29Mar2025 21:37:40.502] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[29Mar2025 21:37:40.502] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[29Mar2025 21:37:40.503] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[29Mar2025 21:37:41.350] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[29Mar2025 21:37:43.133] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[29Mar2025 21:37:43.136] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[29Mar2025 21:37:43.150] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[29Mar2025 21:37:43.150] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[29Mar2025 21:37:43.150] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[29Mar2025 21:37:43.150] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
