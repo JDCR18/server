@@ -1648,3 +1648,15 @@ com.google.gson.JsonSyntaxException: Unknown item 'aether_treasure_reforging:nep
 [30Mar2025 16:20:29.562] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: danae1108 has made the advancement [Dragonslayer]
 [30Mar2025 16:20:43.390] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Cleric'/3089, l='ServerLevel[world]', x=-622.45, y=131.00, z=-650.76] died, message: 'Cleric froze to death'
 [30Mar2025 16:21:21.390] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/3094, l='ServerLevel[world]', x=-629.62, y=134.04, z=-656.30] died, message: 'Villager froze to death'
+[30Mar2025 16:21:41.597] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [danae1108: Set own game mode to Survival Mode]
+[30Mar2025 16:26:04.445] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [danae1108: Set own game mode to Creative Mode]
+[30Mar2025 16:26:25.365] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Ina[/127.193.163.85:53905] logged in with entity id 5287 at (-919.0044626984612, 81.0, 185.76834447738744)
+[30Mar2025 16:26:25.390] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ina joined the game
+[30Mar2025 16:26:26.266] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: danae1108 moved too quickly! -7.114705043837716,2.7687599562044625,7.549702572438036
+[30Mar2025 16:26:44.844] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: danae1108 has made the advancement [Ice Bucket Challenge]
+[30Mar2025 16:30:42.074] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: danae1108 has made the advancement [Hunt and Gather]
+[30Mar2025 16:31:00.361] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [danae1108: Set own game mode to Survival Mode]
+[30Mar2025 16:36:24.122] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [danae1108: Teleported danae1108 to Ina]
+[30Mar2025 16:36:44.805] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ina has made the advancement [Crops of the Wild]
+[30Mar2025 16:39:14.928] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [danae1108: Teleported danae1108 to Ina]
+[30Mar2025 16:39:28.949] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: danae1108 has made the advancement [What a Deal!]
