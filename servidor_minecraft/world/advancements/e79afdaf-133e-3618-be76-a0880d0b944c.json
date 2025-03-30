@@ -3137,6 +3137,12 @@
     },
     "done": true
   },
+  "aether:recipes/tools/iron_pickaxe_repairing": {
+    "criteria": {
+      "has_iron_pickaxe": "2025-03-30 19:42:33 +0000"
+    },
+    "done": true
+  },
   "rusticdelight:recipes/misc/string_from_cotton_boll": {
     "criteria": {
       "has_cotton_boll": "2025-03-30 19:27:37 +0000"
