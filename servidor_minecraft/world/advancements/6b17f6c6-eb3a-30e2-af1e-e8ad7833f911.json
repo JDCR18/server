@@ -972,9 +972,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/bone_meal": {
+  "yuushya:recipes/pictor": {
     "criteria": {
-      "has_bone": "2025-03-30 03:12:47 +0000"
+      "has_iron_ingot": "2025-03-30 03:00:38 +0000"
     },
     "done": true
   },
@@ -996,9 +996,9 @@
     },
     "done": true
   },
-  "yuushya:recipes/pictor": {
+  "minecraft:recipes/misc/bone_meal": {
     "criteria": {
-      "has_iron_ingot": "2025-03-30 03:00:38 +0000"
+      "has_bone": "2025-03-30 03:12:47 +0000"
     },
     "done": true
   },
