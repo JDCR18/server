@@ -9,11 +9,14 @@
     "criteria": {
       "minecraft:snowy_slopes": "2025-03-30 00:04:10 +0000",
       "minecraft:taiga": "2025-03-29 23:59:09 +0000",
+      "minecraft:beach": "2025-03-30 16:43:59 +0000",
       "minecraft:river": "2025-03-30 00:37:40 +0000",
       "minecraft:dripstone_caves": "2025-03-29 22:39:24 +0000",
       "minecraft:grove": "2025-03-30 00:01:59 +0000",
       "minecraft:jagged_peaks": "2025-03-30 00:02:25 +0000",
+      "minecraft:cold_ocean": "2025-03-30 16:50:30 +0000",
       "minecraft:forest": "2025-03-29 23:05:16 +0000",
+      "minecraft:old_growth_spruce_taiga": "2025-03-30 17:02:26 +0000",
       "minecraft:frozen_peaks": "2025-03-30 16:16:40 +0000",
       "minecraft:meadow": "2025-03-29 22:38:52 +0000",
       "minecraft:plains": "2025-03-29 21:26:06 +0000"
@@ -138,6 +141,7 @@
     "criteria": {
       "chicken": "2025-03-29 21:29:22 +0000",
       "cooked_mutton": "2025-03-30 00:33:28 +0000",
+      "sweet_berries": "2025-03-30 16:53:26 +0000",
       "cooked_beef": "2025-03-30 00:17:56 +0000",
       "baked_potato": "2025-03-30 16:36:04 +0000",
       "porkchop": "2025-03-29 21:32:13 +0000",
@@ -145,7 +149,9 @@
       "mutton": "2025-03-29 21:29:18 +0000",
       "bread": "2025-03-30 00:49:44 +0000",
       "rotten_flesh": "2025-03-30 00:06:33 +0000",
-      "glow_berries": "2025-03-30 16:25:08 +0000"
+      "glow_berries": "2025-03-30 16:25:08 +0000",
+      "salmon": "2025-03-30 16:51:25 +0000",
+      "cooked_salmon": "2025-03-30 16:52:27 +0000"
     },
     "done": false
   },
@@ -277,7 +283,9 @@
   },
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
+      "minecraft:pillager": "2025-03-30 16:47:33 +0000",
       "minecraft:skeleton": "2025-03-30 03:12:46 +0000",
+      "minecraft:vindicator": "2025-03-30 16:48:38 +0000",
       "minecraft:zombie": "2025-03-29 22:38:30 +0000"
     },
     "done": false
@@ -572,9 +580,13 @@
   },
   "adorabuild_structures:tireless_legs": {
     "criteria": {
+      "prison_small_1": "2025-03-30 16:48:25 +0000",
       "mountain_mine_2": "2025-03-30 16:07:45 +0000",
       "spruce_house_large_1": "2025-03-30 16:30:50 +0000",
       "oak_house_large_1": "2025-03-30 00:43:42 +0000",
+      "oak_house_small_3": "2025-03-30 16:44:43 +0000",
+      "oak_tree_1": "2025-03-30 16:42:25 +0000",
+      "oak_house_small_1": "2025-03-30 16:53:58 +0000",
       "oak_house_small_2": "2025-03-30 00:38:34 +0000",
       "oak_house_medium_1": "2025-03-30 00:12:00 +0000",
       "oak_house_medium_2": "2025-03-30 01:13:45 +0000"
@@ -1787,6 +1799,24 @@
     },
     "done": true
   },
+  "farmersdelight:recipes/food/grilled_salmon": {
+    "criteria": {
+      "has_salmon": "2025-03-30 16:49:53 +0000"
+    },
+    "done": true
+  },
+  "adorabuild_structures:treasure_seeker": {
+    "criteria": {
+      "oak_tree_1": "2025-03-30 16:42:25 +0000"
+    },
+    "done": false
+  },
+  "minecraft:recipes/building_blocks/mossy_stone_bricks_from_vine": {
+    "criteria": {
+      "has_vine": "2025-03-30 16:39:28 +0000"
+    },
+    "done": true
+  },
   "farmersdelight:recipes/cooking/rabbit_stew": {
     "criteria": {
       "has_any_ingredient": "2025-03-30 16:31:46 +0000"
@@ -1805,9 +1835,21 @@
     },
     "done": true
   },
+  "alexsmobs:alexsmobs/orcas_might": {
+    "criteria": {
+      "all_effects": "2025-03-30 17:03:37 +0000"
+    },
+    "done": true
+  },
   "farmersdelight:recipes/food/steak_and_potatoes": {
     "criteria": {
       "has_baked_potato": "2025-03-30 16:31:46 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/white_dye": {
+    "criteria": {
+      "has_bone_meal": "2025-03-30 16:59:16 +0000"
     },
     "done": true
   },
@@ -1829,9 +1871,27 @@
     },
     "done": true
   },
+  "farmersdelight:recipes/food/roast_chicken_block": {
+    "criteria": {
+      "has_cooked_chicken": "2025-03-30 16:50:02 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/sentry_armor_trim_smithing_template": {
+    "criteria": {
+      "has_sentry_armor_trim_smithing_template": "2025-03-30 16:49:09 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/golden_boots": {
     "criteria": {
       "has_gold_ingot": "2025-03-30 16:23:35 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/chicken_soup": {
+    "criteria": {
+      "has_any_ingredient": "2025-03-30 16:49:07 +0000"
     },
     "done": true
   },
@@ -1844,6 +1904,12 @@
   "minecraft:recipes/combat/golden_chestplate": {
     "criteria": {
       "has_gold_ingot": "2025-03-30 16:23:35 +0000"
+    },
+    "done": true
+  },
+  "somemoreblocks:recipes/building_blocks/mossy_purpur_block_from_vine": {
+    "criteria": {
+      "has_needed_items": "2025-03-30 16:39:28 +0000"
     },
     "done": true
   },
@@ -1871,9 +1937,33 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/target": {
+    "criteria": {
+      "has_hay_block": "2025-03-30 16:38:26 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/squid_ink_pasta": {
+    "criteria": {
+      "has_any_ingredient": "2025-03-30 16:50:34 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/light_weighted_pressure_plate": {
     "criteria": {
       "has_gold_ingot": "2025-03-30 16:23:35 +0000"
+    },
+    "done": true
+  },
+  "somemoreblocks:recipes/building_blocks/mossy_mud_bricks_from_vine": {
+    "criteria": {
+      "has_needed_items": "2025-03-30 16:39:28 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_cobblestone_from_vine": {
+    "criteria": {
+      "has_vine": "2025-03-30 16:39:28 +0000"
     },
     "done": true
   },
@@ -1889,6 +1979,12 @@
     },
     "done": true
   },
+  "farmersdelight:recipes/food/roasted_mutton_chops": {
+    "criteria": {
+      "has_mutton": "2025-03-30 16:49:53 +0000"
+    },
+    "done": true
+  },
   "aether:recipes/combat/iron_sword_repairing": {
     "criteria": {
       "has_iron_sword": "2025-03-30 16:26:36 +0000"
@@ -1898,6 +1994,24 @@
   "farmersdelight:recipes/misc/gold_nugget_from_smelting_knife": {
     "criteria": {
       "has_golden_knife": "2025-03-30 16:30:42 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/black_dye": {
+    "criteria": {
+      "has_ink_sac": "2025-03-30 16:50:34 +0000"
+    },
+    "done": true
+  },
+  "somemoreblocks:recipes/building_blocks/mossy_bricks_from_vine": {
+    "criteria": {
+      "has_needed_items": "2025-03-30 16:39:28 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_salmon_from_campfire_cooking": {
+    "criteria": {
+      "has_salmon": "2025-03-30 16:49:53 +0000"
     },
     "done": true
   },
@@ -1913,6 +2027,12 @@
     },
     "done": true
   },
+  "somemoreblocks:recipes/building_blocks/mossy_granite_bricks_from_vine": {
+    "criteria": {
+      "has_needed_items": "2025-03-30 16:39:28 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/golden_sword": {
     "criteria": {
       "has_gold_ingot": "2025-03-30 16:23:35 +0000"
@@ -1925,6 +2045,12 @@
     },
     "done": true
   },
+  "farmersdelight:recipes/food/shepherds_pie_block": {
+    "criteria": {
+      "has_cooked_mutton": "2025-03-30 16:49:53 +0000"
+    },
+    "done": true
+  },
   "farmersdelight:main/craft_knife": {
     "criteria": {
       "golden_knife": "2025-03-30 16:30:42 +0000"
@@ -1934,6 +2060,12 @@
   "farmersdelight:recipes/food/pie_crust": {
     "criteria": {
       "has_wheat": "2025-03-30 16:31:44 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/bone_block": {
+    "criteria": {
+      "has_bone_meal": "2025-03-30 16:59:16 +0000"
     },
     "done": true
   },
@@ -1955,15 +2087,51 @@
     },
     "done": true
   },
+  "somemoreblocks:recipes/building_blocks/mossy_diorite_bricks_from_vine": {
+    "criteria": {
+      "has_needed_items": "2025-03-30 16:39:28 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/noodle_soup": {
+    "criteria": {
+      "has_any_ingredient": "2025-03-30 16:51:09 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/golden_helmet": {
     "criteria": {
       "has_gold_ingot": "2025-03-30 16:23:35 +0000"
     },
     "done": true
   },
+  "minecraft:recipes/food/cooked_salmon": {
+    "criteria": {
+      "has_salmon": "2025-03-30 16:49:53 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/vegetable_noodles": {
+    "criteria": {
+      "has_any_ingredient": "2025-03-30 16:49:07 +0000"
+    },
+    "done": true
+  },
+  "decorative_blocks:recipes/building_blocks/dark_oak_palisade": {
+    "criteria": {
+      "has_log": "2025-03-30 16:49:22 +0000"
+    },
+    "done": true
+  },
   "farmersdelight:recipes/food/wheat_dough_from_water": {
     "criteria": {
       "has_wheat": "2025-03-30 16:31:44 +0000"
+    },
+    "done": true
+  },
+  "somemoreblocks:recipes/building_blocks/mossy_andesite_bricks_from_vine": {
+    "criteria": {
+      "has_needed_items": "2025-03-30 16:39:28 +0000"
     },
     "done": true
   },
@@ -1979,15 +2147,39 @@
     },
     "done": true
   },
+  "minecraft:adventure/trade": {
+    "criteria": {
+      "traded": "2025-03-30 16:39:28 +0000"
+    },
+    "done": true
+  },
   "aether:recipes/combat/iron_gloves_repairing": {
     "criteria": {
       "has_iron_gloves": "2025-03-30 16:22:29 +0000"
     },
     "done": true
   },
+  "iceandfire:recipes/building_blocks/sapphire_gem_to_sapphire_block": {
+    "criteria": {
+      "has_sapphire_gem": "2025-03-30 16:51:41 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_oak_planks": {
+    "criteria": {
+      "has_log": "2025-03-30 16:49:22 +0000"
+    },
+    "done": true
+  },
   "fantasyfurniture:recipes/misc/furniture_station": {
     "criteria": {
       "has_crafting_table": "2025-03-30 16:23:05 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_salmon_from_smoking": {
+    "criteria": {
+      "has_salmon": "2025-03-30 16:49:53 +0000"
     },
     "done": true
   },
@@ -2003,9 +2195,27 @@
     },
     "done": true
   },
+  "somemoreblocks:recipes/building_blocks/mossy_sandstone_bricks_from_vine": {
+    "criteria": {
+      "has_needed_items": "2025-03-30 16:39:28 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_oak_wood": {
+    "criteria": {
+      "has_log": "2025-03-30 16:49:22 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/food/baked_potato_from_smoking": {
     "criteria": {
       "has_potato": "2025-03-30 16:26:20 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/sentry_armor_trim_smithing_template_smithing_trim": {
+    "criteria": {
+      "has_smithing_trim_template": "2025-03-30 16:49:09 +0000"
     },
     "done": true
   },
@@ -2021,9 +2231,45 @@
     },
     "done": true
   },
+  "somemoreblocks:recipes/building_blocks/mossy_calcite_bricks_from_vine": {
+    "criteria": {
+      "has_needed_items": "2025-03-30 16:39:28 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/carrot_on_a_stick": {
+    "criteria": {
+      "has_carrot": "2025-03-30 16:49:07 +0000"
+    },
+    "done": true
+  },
   "farmersdelight:recipes/food/stuffed_potato": {
     "criteria": {
       "has_baked_potato": "2025-03-30 16:31:46 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/mutton_wrap": {
+    "criteria": {
+      "has_mutton": "2025-03-30 16:49:53 +0000"
+    },
+    "done": true
+  },
+  "somemoreblocks:recipes/building_blocks/mossy_dripstone_bricks_from_vine": {
+    "criteria": {
+      "has_needed_items": "2025-03-30 16:39:28 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/chicken_sandwich": {
+    "criteria": {
+      "has_cooked_chicken": "2025-03-30 16:50:02 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/wheat": {
+    "criteria": {
+      "has_hay_block": "2025-03-30 16:38:26 +0000"
     },
     "done": true
   },
@@ -2033,9 +2279,27 @@
     },
     "done": true
   },
+  "somemoreblocks:recipes/building_blocks/mossy_end_stone_bricks_from_vine": {
+    "criteria": {
+      "has_needed_items": "2025-03-30 16:39:28 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/enchanting_table": {
     "criteria": {
       "has_obsidian": "2025-03-30 16:26:44 +0000"
+    },
+    "done": true
+  },
+  "somemoreblocks:recipes/building_blocks/mossy_red_sandstone_bricks_from_vine": {
+    "criteria": {
+      "has_needed_items": "2025-03-30 16:39:28 +0000"
+    },
+    "done": true
+  },
+  "somemoreblocks:recipes/building_blocks/mossy_tuff_bricks_from_vine": {
+    "criteria": {
+      "has_needed_items": "2025-03-30 16:39:28 +0000"
     },
     "done": true
   },

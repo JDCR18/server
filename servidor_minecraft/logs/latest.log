@@ -1660,3 +1660,24 @@ com.google.gson.JsonSyntaxException: Unknown item 'aether_treasure_reforging:nep
 [30Mar2025 16:36:44.805] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ina has made the advancement [Crops of the Wild]
 [30Mar2025 16:39:14.928] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [danae1108: Teleported danae1108 to Ina]
 [30Mar2025 16:39:28.949] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: danae1108 has made the advancement [What a Deal!]
+[30Mar2025 16:42:39.566] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [danae1108: Teleported danae1108 to Ina]
+[30Mar2025 16:44:54.402] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [danae1108: Teleported danae1108 to Ina]
+[30Mar2025 16:50:23.304] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ina lost connection: Disconnected
+[30Mar2025 16:50:23.305] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ina left the game
+[30Mar2025 17:01:01.050] [Worker-Main-19/ERROR] [net.minecraft.world.level.levelgen.feature.MonsterRoomFeature/]: Failed to fetch mob spawner entity at (-1335, -32, -194)
+[30Mar2025 17:03:37.194] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: danae1108 has completed the challenge [Free Willy]
+[30Mar2025 17:04:09.496] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: danae1108 lost connection: Disconnected
+[30Mar2025 17:04:09.497] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: danae1108 left the game
+[30Mar2025 17:05:07.485] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[30Mar2025 17:05:07.486] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[30Mar2025 17:05:07.486] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[30Mar2025 17:05:07.752] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[30Mar2025 17:05:08.601] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[30Mar2025 17:05:08.602] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[30Mar2025 17:05:08.602] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/aether:the_aether
+[30Mar2025 17:05:08.659] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[30Mar2025 17:05:08.659] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[30Mar2025 17:05:08.659] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[30Mar2025 17:05:08.659] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (the_aether): All chunks are saved
+[30Mar2025 17:05:08.659] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[30Mar2025 17:05:08.743] [Server thread/INFO] [journeymap/]: Loading JourneyMap Forge Configs
