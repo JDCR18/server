@@ -7,12 +7,15 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:old_growth_pine_taiga": "2025-03-30 17:38:07 +0000",
       "minecraft:taiga": "2025-03-29 23:59:13 +0000",
       "minecraft:beach": "2025-03-30 16:45:08 +0000",
       "minecraft:river": "2025-03-30 00:33:40 +0000",
       "minecraft:grove": "2025-03-30 00:02:04 +0000",
       "minecraft:jagged_peaks": "2025-03-30 00:02:25 +0000",
+      "minecraft:cold_ocean": "2025-03-30 18:07:09 +0000",
       "minecraft:forest": "2025-03-29 23:57:00 +0000",
+      "minecraft:deep_cold_ocean": "2025-03-30 18:09:35 +0000",
       "minecraft:meadow": "2025-03-30 00:16:44 +0000",
       "minecraft:plains": "2025-03-29 21:35:15 +0000"
     },
@@ -383,6 +386,7 @@
       "oak_house_small_3": "2025-03-30 16:47:09 +0000",
       "oak_tree_1": "2025-03-30 16:05:44 +0000",
       "oak_house_small_2": "2025-03-30 00:36:38 +0000",
+      "birch_house_small_2": "2025-03-30 17:30:07 +0000",
       "oak_house_medium_1": "2025-03-30 00:12:59 +0000",
       "oak_house_medium_2": "2025-03-30 01:12:10 +0000"
     },
@@ -1636,12 +1640,6 @@
     },
     "done": true
   },
-  "iceandfire:iceandfire/root": {
-    "criteria": {
-      "tick": "2025-03-30 15:42:46 +0000"
-    },
-    "done": true
-  },
   "farmersdelight:recipes/food/roasted_mutton_chops": {
     "criteria": {
       "has_mutton": "2025-03-30 15:42:46 +0000"
@@ -1663,12 +1661,6 @@
   "aether:recipes/combat/stone_sword_repairing": {
     "criteria": {
       "has_stone_sword": "2025-03-30 15:42:46 +0000"
-    },
-    "done": true
-  },
-  "iceandfire:recipes/misc/dragon_meal": {
-    "criteria": {
-      "has_item": "2025-03-30 15:42:46 +0000"
     },
     "done": true
   },
@@ -1800,6 +1792,7 @@
   },
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
+      "minecraft:spider": "2025-03-30 17:35:49 +0000",
       "minecraft:zombie": "2025-03-30 16:06:03 +0000"
     },
     "done": false
@@ -1834,93 +1827,9 @@
     },
     "done": true
   },
-  "aether:recipes/decorations/skyroot_bed": {
-    "criteria": {
-      "has_wool": "2025-03-30 16:35:45 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/raw_iron_block": {
     "criteria": {
       "has_raw_iron": "2025-03-30 16:32:37 +0000"
-    },
-    "done": true
-  },
-  "farmersdelight:main/get_fd_seed": {
-    "criteria": {
-      "tomato_seeds": "2025-03-30 16:36:44 +0000"
-    },
-    "done": true
-  },
-  "aether:recipes/tools/aether_saddle": {
-    "criteria": {
-      "has_leather": "2025-03-30 16:43:47 +0000"
-    },
-    "done": true
-  },
-  "fruitsdelight:recipes/misc/apple_crate": {
-    "criteria": {
-      "has_apple": "2025-03-30 16:36:42 +0000"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/cooking/baked_cod_stew": {
-    "criteria": {
-      "has_any_ingredient": "2025-03-30 16:36:46 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/target": {
-    "criteria": {
-      "has_hay_block": "2025-03-30 16:38:58 +0000"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/cooking/apple_cider": {
-    "criteria": {
-      "has_apple": "2025-03-30 16:36:42 +0000"
-    },
-    "done": true
-  },
-  "fruitsdelight:recipes/misc/lemon_seeds": {
-    "criteria": {
-      "has_lemon": "2025-03-30 16:38:01 +0000"
-    },
-    "done": true
-  },
-  "rusticdelight:recipes/food/potato_salad": {
-    "criteria": {
-      "has_potato": "2025-03-30 16:36:46 +0000"
-    },
-    "done": true
-  },
-  "fruitsdelight:recipes/jelly_bread": {
-    "criteria": {
-      "has_bread": "2025-03-30 16:36:40 +0000"
-    },
-    "done": true
-  },
-  "fruitsdelight:recipes/misc/lemon_crate": {
-    "criteria": {
-      "has_lemon": "2025-03-30 16:38:01 +0000"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/cooking/dumplings": {
-    "criteria": {
-      "has_any_ingredient": "2025-03-30 16:36:46 +0000"
-    },
-    "done": true
-  },
-  "fruitsdelight:recipes/food/lemon_juice": {
-    "criteria": {
-      "has_lemon": "2025-03-30 16:38:01 +0000"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/cooking/pasta_with_meatballs": {
-    "criteria": {
-      "has_any_ingredient": "2025-03-30 16:43:47 +0000"
     },
     "done": true
   },
@@ -1930,33 +1839,81 @@
     },
     "done": true
   },
-  "aether:recipes/combat/white_cape": {
-    "criteria": {
-      "has_white_wool": "2025-03-30 16:35:45 +0000"
-    },
-    "done": true
-  },
-  "aether:recipes/combat/leather_gloves": {
-    "criteria": {
-      "has_leather": "2025-03-30 16:43:47 +0000"
-    },
-    "done": true
-  },
   "yuushya:recipes/bismuth_crystal": {
     "criteria": {
       "has_cobblestone": "2025-03-30 16:32:37 +0000"
     },
     "done": true
   },
-  "iceandfire:recipes/misc/blindfold": {
+  "minecraft:recipes/misc/iron_ingot_from_smelting_raw_iron": {
     "criteria": {
-      "has_item": "2025-03-30 16:43:47 +0000"
+      "has_raw_iron": "2025-03-30 16:32:37 +0000"
     },
     "done": true
   },
-  "fruitsdelight:recipes/food/lemon_cookie": {
+  "aether:recipes/decorations/skyroot_bed": {
     "criteria": {
-      "has_lemon": "2025-03-30 16:38:01 +0000"
+      "has_wool": "2025-03-30 16:35:45 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/combat/white_cape": {
+    "criteria": {
+      "has_white_wool": "2025-03-30 16:35:45 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/pasta_with_mutton_chop": {
+    "criteria": {
+      "has_any_ingredient": "2025-03-30 16:35:45 +0000"
+    },
+    "done": true
+  },
+  "fruitsdelight:recipes/jelly_bread": {
+    "criteria": {
+      "has_bread": "2025-03-30 16:36:40 +0000"
+    },
+    "done": true
+  },
+  "fruitsdelight:recipes/misc/apple_crate": {
+    "criteria": {
+      "has_apple": "2025-03-30 16:36:42 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/apple_cider": {
+    "criteria": {
+      "has_apple": "2025-03-30 16:36:42 +0000"
+    },
+    "done": true
+  },
+  "rusticdelight:recipes/syrup": {
+    "criteria": {
+      "has_any_ingredient": "2025-03-30 16:36:42 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:main/get_fd_seed": {
+    "criteria": {
+      "tomato_seeds": "2025-03-30 16:36:44 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/baked_cod_stew": {
+    "criteria": {
+      "has_any_ingredient": "2025-03-30 16:36:46 +0000"
+    },
+    "done": true
+  },
+  "rusticdelight:recipes/food/potato_salad": {
+    "criteria": {
+      "has_potato": "2025-03-30 16:36:46 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/dumplings": {
+    "criteria": {
+      "has_any_ingredient": "2025-03-30 16:36:46 +0000"
     },
     "done": true
   },
@@ -1972,51 +1929,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/magenta_dye_from_allium": {
-    "criteria": {
-      "has_allium": "2025-03-30 16:46:58 +0000"
-    },
-    "done": true
-  },
-  "fantasyfurniture:recipes/misc/furniture_station": {
-    "criteria": {
-      "has_leather": "2025-03-30 16:43:47 +0000"
-    },
-    "done": true
-  },
-  "rusticdelight:recipes/syrup": {
-    "criteria": {
-      "has_any_ingredient": "2025-03-30 16:36:42 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/iron_ingot_from_smelting_raw_iron": {
-    "criteria": {
-      "has_raw_iron": "2025-03-30 16:32:37 +0000"
-    },
-    "done": true
-  },
   "farmersdelight:recipes/cooking/beef_stew": {
     "criteria": {
       "has_any_ingredient": "2025-03-30 16:36:46 +0000"
     },
     "done": true
   },
-  "farmersdelight:recipes/cooking/pasta_with_mutton_chop": {
-    "criteria": {
-      "has_any_ingredient": "2025-03-30 16:35:45 +0000"
-    },
-    "done": true
-  },
   "farmersdelight:recipes/cooking/ratatouille": {
     "criteria": {
       "has_any_ingredient": "2025-03-30 16:36:46 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/wheat": {
-    "criteria": {
-      "has_hay_block": "2025-03-30 16:38:58 +0000"
     },
     "done": true
   },
@@ -2029,6 +1950,672 @@
   "farmersdelight:recipes/cooking/vegetable_soup": {
     "criteria": {
       "has_any_ingredient": "2025-03-30 16:36:46 +0000"
+    },
+    "done": true
+  },
+  "fruitsdelight:recipes/misc/lemon_seeds": {
+    "criteria": {
+      "has_lemon": "2025-03-30 16:38:01 +0000"
+    },
+    "done": true
+  },
+  "fruitsdelight:recipes/misc/lemon_crate": {
+    "criteria": {
+      "has_lemon": "2025-03-30 16:38:01 +0000"
+    },
+    "done": true
+  },
+  "fruitsdelight:recipes/food/lemon_juice": {
+    "criteria": {
+      "has_lemon": "2025-03-30 16:38:01 +0000"
+    },
+    "done": true
+  },
+  "fruitsdelight:recipes/food/lemon_cookie": {
+    "criteria": {
+      "has_lemon": "2025-03-30 16:38:01 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/target": {
+    "criteria": {
+      "has_hay_block": "2025-03-30 16:38:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/wheat": {
+    "criteria": {
+      "has_hay_block": "2025-03-30 16:38:58 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/tools/aether_saddle": {
+    "criteria": {
+      "has_leather": "2025-03-30 16:43:47 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/pasta_with_meatballs": {
+    "criteria": {
+      "has_any_ingredient": "2025-03-30 16:43:47 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/combat/leather_gloves": {
+    "criteria": {
+      "has_leather": "2025-03-30 16:43:47 +0000"
+    },
+    "done": true
+  },
+  "fantasyfurniture:recipes/misc/furniture_station": {
+    "criteria": {
+      "has_leather": "2025-03-30 16:43:47 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/magenta_dye_from_allium": {
+    "criteria": {
+      "has_allium": "2025-03-30 16:46:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/bread": {
+    "criteria": {
+      "has_wheat": "2025-03-30 17:16:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/hay_block": {
+    "criteria": {
+      "has_wheat": "2025-03-30 17:16:58 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/pie_crust": {
+    "criteria": {
+      "has_wheat": "2025-03-30 17:16:58 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/wheat_dough_from_eggs": {
+    "criteria": {
+      "has_wheat": "2025-03-30 17:16:58 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/wheat_dough_from_water": {
+    "criteria": {
+      "has_wheat": "2025-03-30 17:16:58 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/combat/iron_pendant": {
+    "criteria": {
+      "has_iron_ingot": "2025-03-30 17:16:59 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/decorations/cooking_pot": {
+    "criteria": {
+      "has_iron_ingot": "2025-03-30 17:16:59 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/combat/iron_gloves": {
+    "criteria": {
+      "has_iron": "2025-03-30 17:16:59 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/combat/iron_knife": {
+    "criteria": {
+      "has_iron_ingot": "2025-03-30 17:16:59 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/decorations/skyroot_smithing_table": {
+    "criteria": {
+      "has_iron_ingot": "2025-03-30 17:16:59 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/combat/skyroot_iron_vanilla_shield": {
+    "criteria": {
+      "has_iron_ingot": "2025-03-30 17:16:59 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/combat/iron_ring": {
+    "criteria": {
+      "has_iron_ingot": "2025-03-30 17:16:59 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/glow_berry_custard": {
+    "criteria": {
+      "has_any_ingredient": "2025-03-30 17:17:00 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/misc/gold_nugget_from_smelting_knife": {
+    "criteria": {
+      "has_golden_knife": "2025-03-30 17:17:00 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:main/craft_knife": {
+    "criteria": {
+      "golden_knife": "2025-03-30 17:17:00 +0000"
+    },
+    "done": true
+  },
+  "naturalist:recipes/naturalist/glow_goop": {
+    "criteria": {
+      "has_glow_berries": "2025-03-30 17:17:00 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/misc/gold_nugget_from_blasting_knife": {
+    "criteria": {
+      "has_golden_knife": "2025-03-30 17:17:00 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/sweet_berry_cookie": {
+    "criteria": {
+      "has_sweet_berries": "2025-03-30 17:17:02 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/form_obsidian": {
+    "criteria": {
+      "obsidian": "2025-03-30 17:17:03 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/flint_and_steel": {
+    "criteria": {
+      "has_obsidian": "2025-03-30 17:17:03 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/enchanting_table": {
+    "criteria": {
+      "has_obsidian": "2025-03-30 17:17:03 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/combat/golden_knife": {
+    "criteria": {
+      "has_gold_ingot": "2025-03-30 17:17:04 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/combat/golden_ring": {
+    "criteria": {
+      "has_gold_ingot": "2025-03-30 17:17:04 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/combat/golden_gloves": {
+    "criteria": {
+      "has_gold": "2025-03-30 17:17:04 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/combat/golden_pendant": {
+    "criteria": {
+      "has_gold_ingot": "2025-03-30 17:17:04 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/bone_meal": {
+    "criteria": {
+      "has_bone": "2025-03-30 17:17:05 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/bone_broth": {
+    "criteria": {
+      "has_bone": "2025-03-30 17:17:05 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/tools/stone_hoe_repairing": {
+    "criteria": {
+      "has_stone_hoe": "2025-03-30 17:21:35 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/tools/stone_axe_repairing": {
+    "criteria": {
+      "has_stone_axe": "2025-03-30 17:21:48 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/chicken_soup": {
+    "criteria": {
+      "has_any_ingredient": "2025-03-30 17:26:55 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/vegetable_noodles": {
+    "criteria": {
+      "has_any_ingredient": "2025-03-30 17:26:55 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/carrot_on_a_stick": {
+    "criteria": {
+      "has_carrot": "2025-03-30 17:26:55 +0000"
+    },
+    "done": true
+  },
+  "alexsmobs:alexsmobs/seagull_steal": {
+    "criteria": {
+      "ex": "2025-03-30 17:30:00 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/yellow_dye_from_sunflower": {
+    "criteria": {
+      "has_sunflower": "2025-03-30 17:35:20 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/fermented_spider_eye": {
+    "criteria": {
+      "has_spider_eye": "2025-03-30 17:35:50 +0000"
+    },
+    "done": true
+  },
+  "rusticdelight:recipes/food/sweet_salad": {
+    "criteria": {
+      "has_honey_bottle": "2025-03-30 17:35:55 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/honey_cookie": {
+    "criteria": {
+      "has_honey_bottle": "2025-03-30 17:35:55 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/sugar_from_honey_bottle": {
+    "criteria": {
+      "has_honey_bottle": "2025-03-30 17:35:55 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/honey_block": {
+    "criteria": {
+      "has_honey_bottle": "2025-03-30 17:35:55 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/orange_dye_from_orange_tulip": {
+    "criteria": {
+      "has_orange_tulip": "2025-03-30 17:35:59 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/decorations/skyroot_loom": {
+    "criteria": {
+      "has_string": "2025-03-30 17:36:01 +0000"
+    },
+    "done": true
+  },
+  "beautify:rope": {
+    "criteria": {
+      "requirement": "2025-03-30 17:36:01 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/tripwire_hook": {
+    "criteria": {
+      "has_string": "2025-03-30 17:36:01 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/candle": {
+    "criteria": {
+      "has_string": "2025-03-30 17:36:01 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/redstone/skyroot_tripwire_hook": {
+    "criteria": {
+      "has_string": "2025-03-30 17:36:01 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/bow": {
+    "criteria": {
+      "has_string": "2025-03-30 17:36:01 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/fishing_rod": {
+    "criteria": {
+      "has_string": "2025-03-30 17:36:01 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/white_wool_from_string": {
+    "criteria": {
+      "has_string": "2025-03-30 17:36:01 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/loom": {
+    "criteria": {
+      "has_string": "2025-03-30 17:36:01 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/light_blue_dye_from_blue_orchid": {
+    "criteria": {
+      "has_blue_orchid": "2025-03-30 17:36:02 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/cabbage_rolls": {
+    "criteria": {
+      "has_any_ingredient": "2025-03-30 17:38:31 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/building_blocks/cabbage_crate": {
+    "criteria": {
+      "has_cabbage": "2025-03-30 17:38:31 +0000"
+    },
+    "done": true
+  },
+  "fruitsdelight:recipes/misc/pineapple_crate": {
+    "criteria": {
+      "has_pineapple": "2025-03-30 17:38:50 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/beetroot_soup": {
+    "criteria": {
+      "has_beetroot": "2025-03-30 17:42:20 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/red_dye_from_beetroot": {
+    "criteria": {
+      "has_beetroot": "2025-03-30 17:42:20 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/beetroot_soup": {
+    "criteria": {
+      "has_beetroot": "2025-03-30 17:42:20 +0000"
+    },
+    "done": true
+  },
+  "aether_redux:recipes/transportation/glacia_chest_boat": {
+    "criteria": {
+      "has_boat": "2025-03-30 17:46:24 +0000"
+    },
+    "done": true
+  },
+  "aether_redux:recipes/transportation/crystal_chest_boat": {
+    "criteria": {
+      "has_boat": "2025-03-30 17:46:24 +0000"
+    },
+    "done": true
+  },
+  "aether_redux:recipes/transportation/blightwillow_chest_boat": {
+    "criteria": {
+      "has_boat": "2025-03-30 17:46:24 +0000"
+    },
+    "done": true
+  },
+  "aether_redux:recipes/transportation/cloudcap_chest_boat": {
+    "criteria": {
+      "has_boat": "2025-03-30 17:46:24 +0000"
+    },
+    "done": true
+  },
+  "aether_redux:recipes/transportation/fieldsproot_chest_boat": {
+    "criteria": {
+      "has_boat": "2025-03-30 17:46:24 +0000"
+    },
+    "done": true
+  },
+  "aether_redux:recipes/transportation/jellyshroom_chest_boat": {
+    "criteria": {
+      "has_boat": "2025-03-30 17:46:24 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/transportation/skyroot_chest_boat": {
+    "criteria": {
+      "has_boat": "2025-03-30 17:46:24 +0000"
+    },
+    "done": true
+  },
+  "decorative_blocks:recipes/decorations/chandelier": {
+    "criteria": {
+      "has_torch": "2025-03-30 17:48:07 +0000"
+    },
+    "done": true
+  },
+  "decorative_blocks:recipes/decorations/torch_from_chandelier": {
+    "criteria": {
+      "has_torch": "2025-03-30 17:48:07 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/mushroom_rice": {
+    "criteria": {
+      "has_any_ingredient": "2025-03-30 18:06:49 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/decorations/skyroot_barrel": {
+    "criteria": {
+      "has_slabs": "2025-03-30 18:10:43 +0000"
+    },
+    "done": true
+  },
+  "somemoreblocks:recipes/building_blocks/mossy_end_stone_bricks_from_moss_block": {
+    "criteria": {
+      "has_needed_items": "2025-03-30 18:11:59 +0000"
+    },
+    "done": true
+  },
+  "somemoreblocks:recipes/building_blocks/mossy_granite_bricks_from_moss_block": {
+    "criteria": {
+      "has_needed_items": "2025-03-30 18:11:59 +0000"
+    },
+    "done": true
+  },
+  "somemoreblocks:recipes/building_blocks/mossy_red_sandstone_bricks_from_moss_block": {
+    "criteria": {
+      "has_needed_items": "2025-03-30 18:11:59 +0000"
+    },
+    "done": true
+  },
+  "somemoreblocks:recipes/building_blocks/mossy_calcite_bricks_from_moss_block": {
+    "criteria": {
+      "has_needed_items": "2025-03-30 18:11:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/coast_armor_trim_smithing_template": {
+    "criteria": {
+      "has_coast_armor_trim_smithing_template": "2025-03-30 18:12:14 +0000"
+    },
+    "done": true
+  },
+  "packedup:recipes/misc/basic_from_chest": {
+    "criteria": {
+      "recipe_condition": "2025-03-30 18:14:43 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/decorations/skyroot_cartography_table": {
+    "criteria": {
+      "has_paper": "2025-03-30 18:12:15 +0000"
+    },
+    "done": true
+  },
+  "somemoreblocks:recipes/building_blocks/mossy_bricks_from_moss_block": {
+    "criteria": {
+      "has_needed_items": "2025-03-30 18:11:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/book": {
+    "criteria": {
+      "has_paper": "2025-03-30 18:12:15 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/combat/leather_leggings_repairing": {
+    "criteria": {
+      "has_leather_leggings": "2025-03-30 18:11:56 +0000"
+    },
+    "done": true
+  },
+  "packedup:recipes/misc/iron_from_basic": {
+    "criteria": {
+      "recipe_condition": "2025-03-30 18:18:33 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/decorations/safety_net": {
+    "criteria": {
+      "has_rope": "2025-03-30 18:11:58 +0000"
+    },
+    "done": true
+  },
+  "somemoreblocks:recipes/building_blocks/mossy_mud_bricks_from_moss_block": {
+    "criteria": {
+      "has_needed_items": "2025-03-30 18:11:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/bowl": {
+    "criteria": {
+      "has_mushroom_stew": "2025-03-30 18:11:02 +0000"
+    },
+    "done": true
+  },
+  "somemoreblocks:recipes/building_blocks/mossy_tuff_bricks_from_moss_block": {
+    "criteria": {
+      "has_needed_items": "2025-03-30 18:11:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/composter": {
+    "criteria": {
+      "has_wood_slab": "2025-03-30 18:10:43 +0000"
+    },
+    "done": true
+  },
+  "packedup:recipes/misc/copper_from_basic": {
+    "criteria": {
+      "recipe_condition": "2025-03-30 18:18:33 +0000"
+    },
+    "done": true
+  },
+  "packedup:basic_backpack": {
+    "criteria": {
+      "has_backpack": "2025-03-30 18:18:33 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/coast_armor_trim_smithing_template_smithing_trim": {
+    "criteria": {
+      "has_smithing_trim_template": "2025-03-30 18:12:14 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/cooked_rice": {
+    "criteria": {
+      "has_rice": "2025-03-30 18:06:49 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_cobblestone_from_moss_block": {
+    "criteria": {
+      "has_moss_block": "2025-03-30 18:11:59 +0000"
+    },
+    "done": true
+  },
+  "somemoreblocks:recipes/building_blocks/mossy_diorite_bricks_from_moss_block": {
+    "criteria": {
+      "has_needed_items": "2025-03-30 18:11:59 +0000"
+    },
+    "done": true
+  },
+  "somemoreblocks:recipes/building_blocks/mossy_sandstone_bricks_from_moss_block": {
+    "criteria": {
+      "has_needed_items": "2025-03-30 18:11:59 +0000"
+    },
+    "done": true
+  },
+  "somemoreblocks:recipes/building_blocks/mossy_andesite_bricks_from_moss_block": {
+    "criteria": {
+      "has_needed_items": "2025-03-30 18:11:59 +0000"
+    },
+    "done": true
+  },
+  "somemoreblocks:recipes/building_blocks/mossy_purpur_block_from_moss_block": {
+    "criteria": {
+      "has_needed_items": "2025-03-30 18:11:59 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/building_blocks/rice_bag": {
+    "criteria": {
+      "has_rice": "2025-03-30 18:06:49 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/moss_carpet": {
+    "criteria": {
+      "has_moss_block": "2025-03-30 18:11:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/cartography_table": {
+    "criteria": {
+      "has_paper": "2025-03-30 18:12:15 +0000"
+    },
+    "done": true
+  },
+  "somemoreblocks:recipes/building_blocks/mossy_dripstone_bricks_from_moss_block": {
+    "criteria": {
+      "has_needed_items": "2025-03-30 18:11:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/mushroom_stew": {
+    "criteria": {
+      "has_mushroom_stew": "2025-03-30 18:11:02 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/combat/leather_gloves_repairing": {
+    "criteria": {
+      "has_leather_gloves": "2025-03-30 18:11:57 +0000"
+    },
+    "done": true
+  },
+  "somemoreblocks:recipes/building_blocks/dark_oak_mosaic": {
+    "criteria": {
+      "has_needed_items": "2025-03-30 18:10:43 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_stone_bricks_from_moss_block": {
+    "criteria": {
+      "has_moss_block": "2025-03-30 18:11:59 +0000"
     },
     "done": true
   },
