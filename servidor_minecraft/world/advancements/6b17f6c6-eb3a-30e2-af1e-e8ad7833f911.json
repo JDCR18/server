@@ -9,6 +9,7 @@
     "criteria": {
       "minecraft:snowy_slopes": "2025-03-30 00:04:10 +0000",
       "minecraft:taiga": "2025-03-29 23:59:09 +0000",
+      "minecraft:river": "2025-03-30 00:37:40 +0000",
       "minecraft:dripstone_caves": "2025-03-29 22:39:24 +0000",
       "minecraft:grove": "2025-03-30 00:01:59 +0000",
       "minecraft:jagged_peaks": "2025-03-30 00:02:25 +0000",
@@ -135,6 +136,7 @@
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
       "chicken": "2025-03-29 21:29:22 +0000",
+      "cooked_mutton": "2025-03-30 00:33:28 +0000",
       "cooked_beef": "2025-03-30 00:17:56 +0000",
       "porkchop": "2025-03-29 21:32:13 +0000",
       "apple": "2025-03-29 21:28:17 +0000",
@@ -565,6 +567,7 @@
   },
   "adorabuild_structures:tireless_legs": {
     "criteria": {
+      "oak_house_small_2": "2025-03-30 00:38:34 +0000",
       "oak_house_medium_1": "2025-03-30 00:12:00 +0000"
     },
     "done": false
@@ -647,6 +650,18 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/bricks": {
+    "criteria": {
+      "has_brick": "2025-03-30 00:38:44 +0000"
+    },
+    "done": true
+  },
+  "naturalist:recipes/food/cooked_bass": {
+    "criteria": {
+      "has_bass": "2025-03-30 00:37:47 +0000"
+    },
+    "done": true
+  },
   "minecraft:adventure/sleep_in_bed": {
     "criteria": {
       "slept_in_bed": "2025-03-30 00:28:54 +0000"
@@ -659,15 +674,33 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/decorated_pot_simple": {
+    "criteria": {
+      "has_brick": "2025-03-30 00:38:44 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/torch": {
     "criteria": {
       "has_stone_pickaxe": "2025-03-30 00:29:15 +0000"
     },
     "done": true
   },
+  "minecraft:husbandry/tame_an_animal": {
+    "criteria": {
+      "tamed_animal": "2025-03-30 00:32:58 +0000"
+    },
+    "done": true
+  },
   "minecraft:story/upgrade_tools": {
     "criteria": {
       "stone_pickaxe": "2025-03-30 00:29:15 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/flower_pot": {
+    "criteria": {
+      "has_brick": "2025-03-30 00:38:44 +0000"
     },
     "done": true
   },

@@ -822,3 +822,25 @@ com.google.gson.JsonSyntaxException: Unknown item 'cozy_home:plank_spruce_0'
 [30Mar2025 00:29:15.475] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: danae1108 has made the advancement [Getting an Upgrade]
 [30Mar2025 00:32:05.768] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ina has made the advancement [Alex's Mobs]
 [30Mar2025 00:32:58.124] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: danae1108 has made the advancement [Best Friends Forever]
+[30Mar2025 00:38:45.652] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=254, y=-53, z=138}
+[30Mar2025 00:38:45.654] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=255, y=-53, z=138}
+[30Mar2025 00:38:45.654] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=253, y=-50, z=138}
+[30Mar2025 00:38:45.654] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=253, y=-49, z=138}
+[30Mar2025 00:38:45.655] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=251, y=-49, z=138}
+[30Mar2025 00:38:45.655] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=251, y=-50, z=138}
+[30Mar2025 00:38:45.657] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=255, y=-53, z=149}
+[30Mar2025 00:38:45.657] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=254, y=-53, z=149}
+[30Mar2025 00:38:45.658] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=253, y=-50, z=149}
+[30Mar2025 00:38:45.658] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=253, y=-49, z=149}
+[30Mar2025 00:38:45.658] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=251, y=-49, z=149}
+[30Mar2025 00:38:45.659] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=251, y=-50, z=149}
+[30Mar2025 00:38:45.659] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=256, y=-50, z=138}
+[30Mar2025 00:38:45.659] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=258, y=-50, z=138}
+[30Mar2025 00:38:45.660] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=258, y=-49, z=138}
+[30Mar2025 00:38:45.660] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=256, y=-49, z=138}
+[30Mar2025 00:38:45.661] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=256, y=-50, z=149}
+[30Mar2025 00:38:45.661] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=256, y=-49, z=149}
+[30Mar2025 00:38:45.661] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=258, y=-49, z=149}
+[30Mar2025 00:38:45.662] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=258, y=-50, z=149}
+[30Mar2025 00:44:12.163] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: danae1108 has made the advancement [Suit Up]
+[30Mar2025 00:44:30.964] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ina has made the advancement [Suit Up]
