@@ -12182,3 +12182,4 @@ com.google.gson.JsonSyntaxException: Unknown item 'yuushya:the_encyclopedia'
 [30Mar2025 02:59:28.413] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
 [30Mar2025 03:00:38.680] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: danae1108[/127.30.101.95:43497] logged in with entity id 179 at (-919.17617763453, 77.0625, 181.62656221938786)
 [30Mar2025 03:00:38.798] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: danae1108 joined the game
+[30Mar2025 03:10:22.332] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [danae1108: Set own game mode to Creative Mode]
