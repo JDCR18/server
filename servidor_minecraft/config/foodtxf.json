@@ -1,0 +1,6 @@
+{
+  "enableCannibalism": true,
+  "playerDropFlesh": true,
+  "knifeDropFlesh": true,
+  "addVillagerTrades": true
+}
