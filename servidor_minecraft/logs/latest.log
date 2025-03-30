@@ -1638,3 +1638,7 @@ com.google.gson.JsonSyntaxException: Unknown item 'aether_treasure_reforging:nep
 [30Mar2025 18:43:04.946] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Ina[/127.193.163.85:52279] logged in with entity id 138 at (-559.6999999880791, 64.0, 1749.7294971337667)
 [30Mar2025 18:43:05.081] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ina joined the game
 [30Mar2025 18:43:07.298] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2375ms or 47 ticks behind
+[30Mar2025 18:54:43.969] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id iceandfire:ice_dragon
+[30Mar2025 18:54:50.264] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id iceandfire:siren
+[30Mar2025 18:54:50.264] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id iceandfire:siren
+[30Mar2025 18:55:07.704] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id iceandfire:hippocampus

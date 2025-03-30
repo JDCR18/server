@@ -2757,9 +2757,51 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/lapis_block": {
+    "criteria": {
+      "has_lapis_lazuli": "2025-03-30 18:51:34 +0000"
+    },
+    "done": true
+  },
+  "somemoreblocks:recipes/building_blocks/dripstone_brick_wall_from_dripstone_block_stonecutting": {
+    "criteria": {
+      "has_needed_items": "2025-03-30 18:52:09 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/beef_patty_from_campfire_cooking": {
+    "criteria": {
+      "beef_patty": "2025-03-30 18:49:48 +0000"
+    },
+    "done": true
+  },
+  "decorative_blocks:recipes/decorations/brazier": {
+    "criteria": {
+      "has_bar": "2025-03-30 18:50:43 +0000"
+    },
+    "done": true
+  },
+  "somemoreblocks:recipes/building_blocks/dripstone_bricks": {
+    "criteria": {
+      "has_needed_items": "2025-03-30 18:52:09 +0000"
+    },
+    "done": true
+  },
+  "somemoreblocks:recipes/building_blocks/polished_dripstone_slab_from_dripstone_block_stonecutting": {
+    "criteria": {
+      "has_needed_items": "2025-03-30 18:52:09 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/dark_oak_stairs": {
     "criteria": {
       "has_planks": "2025-03-30 18:44:31 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/squid_ink_pasta": {
+    "criteria": {
+      "has_any_ingredient": "2025-03-30 18:53:06 +0000"
     },
     "done": true
   },
@@ -2769,9 +2811,63 @@
     },
     "done": true
   },
+  "somemoreblocks:recipes/building_blocks/dripstone_brick_slab_from_dripstone_block_stonecutting": {
+    "criteria": {
+      "has_needed_items": "2025-03-30 18:52:09 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/black_dye": {
+    "criteria": {
+      "has_ink_sac": "2025-03-30 18:53:06 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/beef_patty": {
+    "criteria": {
+      "beef_patty": "2025-03-30 18:49:48 +0000"
+    },
+    "done": true
+  },
+  "somemoreblocks:recipes/building_blocks/dripstone_brick_stairs_from_dripstone_block_stonecutting": {
+    "criteria": {
+      "has_needed_items": "2025-03-30 18:52:09 +0000"
+    },
+    "done": true
+  },
+  "somemoreblocks:recipes/building_blocks/dripstone_tile_stairs_from_dripstone_block_stonecutting": {
+    "criteria": {
+      "has_needed_items": "2025-03-30 18:52:09 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/cooked_mutton_chops_from_campfire_cooking": {
+    "criteria": {
+      "cooked_mutton_chops": "2025-03-30 18:49:50 +0000"
+    },
+    "done": true
+  },
+  "somemoreblocks:recipes/building_blocks/chiseled_dripstone_bricks_from_dripstone_block_stonecutting": {
+    "criteria": {
+      "has_needed_items": "2025-03-30 18:52:09 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/combat/diamond_gloves": {
+    "criteria": {
+      "has_diamond": "2025-03-30 18:48:28 +0000"
+    },
+    "done": true
+  },
   "decorative_blocks:recipes/building_blocks/dark_oak_support": {
     "criteria": {
       "has_plank": "2025-03-30 18:44:31 +0000"
+    },
+    "done": true
+  },
+  "somemoreblocks:recipes/building_blocks/polished_dripstone_from_dripstone_block_stonecutting": {
+    "criteria": {
+      "has_needed_items": "2025-03-30 18:52:09 +0000"
     },
     "done": true
   },
@@ -2781,15 +2877,81 @@
     },
     "done": true
   },
+  "somemoreblocks:recipes/building_blocks/dripstone_bricks_from_dripstone_block_stonecutting": {
+    "criteria": {
+      "has_needed_items": "2025-03-30 18:52:09 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_ingot_from_nuggets": {
+    "criteria": {
+      "has_iron_nugget": "2025-03-30 18:48:28 +0000"
+    },
+    "done": true
+  },
+  "somemoreblocks:recipes/building_blocks/polished_dripstone_stairs_from_dripstone_block_stonecutting": {
+    "criteria": {
+      "has_needed_items": "2025-03-30 18:52:09 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/combat/diamond_knife": {
+    "criteria": {
+      "has_diamond": "2025-03-30 18:48:28 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/dark_oak_fence_gate": {
     "criteria": {
       "has_planks": "2025-03-30 18:44:31 +0000"
     },
     "done": true
   },
+  "minecraft:recipes/misc/blue_dye": {
+    "criteria": {
+      "has_lapis_lazuli": "2025-03-30 18:51:34 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/dark_oak_trapdoor": {
     "criteria": {
       "has_planks": "2025-03-30 18:44:31 +0000"
+    },
+    "done": true
+  },
+  "somemoreblocks:recipes/building_blocks/dripstone_pillar_from_dripstone_block_stonecutting": {
+    "criteria": {
+      "has_needed_items": "2025-03-30 18:52:09 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/cooked_mutton_chops": {
+    "criteria": {
+      "cooked_mutton_chops": "2025-03-30 18:49:50 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/decorations/skyroot_jukebox": {
+    "criteria": {
+      "has_diamond": "2025-03-30 18:48:28 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/noodle_soup": {
+    "criteria": {
+      "has_any_ingredient": "2025-03-30 18:49:52 +0000"
+    },
+    "done": true
+  },
+  "somemoreblocks:recipes/building_blocks/dripstone_tiles_from_dripstone_block_stonecutting": {
+    "criteria": {
+      "has_needed_items": "2025-03-30 18:52:09 +0000"
+    },
+    "done": true
+  },
+  "somemoreblocks:recipes/building_blocks/smooth_dripstone": {
+    "criteria": {
+      "has_needed_items": "2025-03-30 18:52:09 +0000"
     },
     "done": true
   },
@@ -2802,6 +2964,18 @@
   "farmersdelight:recipes/cooking/pumpkin_soup": {
     "criteria": {
       "has_any_ingredient": "2025-03-30 18:47:22 +0000"
+    },
+    "done": true
+  },
+  "somemoreblocks:recipes/building_blocks/dripstone_tile_wall_from_dripstone_block_stonecutting": {
+    "criteria": {
+      "has_needed_items": "2025-03-30 18:52:09 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/cooked_mutton_chops_from_smoking": {
+    "criteria": {
+      "cooked_mutton_chops": "2025-03-30 18:49:50 +0000"
     },
     "done": true
   },
@@ -2823,15 +2997,39 @@
     },
     "done": true
   },
+  "farmersdelight:recipes/food/beef_patty_from_smoking": {
+    "criteria": {
+      "beef_patty": "2025-03-30 18:49:48 +0000"
+    },
+    "done": true
+  },
+  "beautify:candelabras": {
+    "criteria": {
+      "requirement": "2025-03-30 18:48:28 +0000"
+    },
+    "done": true
+  },
   "decorative_blocks:recipes/building_blocks/dark_oak_seat": {
     "criteria": {
       "has_plank": "2025-03-30 18:44:31 +0000"
     },
     "done": true
   },
+  "decorative_blocks:recipes/decorations/soul_brazier": {
+    "criteria": {
+      "has_bar": "2025-03-30 18:50:43 +0000"
+    },
+    "done": true
+  },
   "aether:recipes/food/moa_egg_pumpkin_pie": {
     "criteria": {
       "has_pumpkin": "2025-03-30 18:47:22 +0000"
+    },
+    "done": true
+  },
+  "somemoreblocks:recipes/building_blocks/dripstone_tile_slab_from_dripstone_block_stonecutting": {
+    "criteria": {
+      "has_needed_items": "2025-03-30 18:52:09 +0000"
     },
     "done": true
   },
