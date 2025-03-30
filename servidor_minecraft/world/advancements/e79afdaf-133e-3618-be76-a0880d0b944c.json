@@ -2415,9 +2415,63 @@
     },
     "done": true
   },
+  "farmersdelight:recipes/cooking/cooked_rice": {
+    "criteria": {
+      "has_rice": "2025-03-30 18:06:49 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/building_blocks/rice_bag": {
+    "criteria": {
+      "has_rice": "2025-03-30 18:06:49 +0000"
+    },
+    "done": true
+  },
   "aether:recipes/decorations/skyroot_barrel": {
     "criteria": {
       "has_slabs": "2025-03-30 18:10:43 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/composter": {
+    "criteria": {
+      "has_wood_slab": "2025-03-30 18:10:43 +0000"
+    },
+    "done": true
+  },
+  "somemoreblocks:recipes/building_blocks/dark_oak_mosaic": {
+    "criteria": {
+      "has_needed_items": "2025-03-30 18:10:43 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/bowl": {
+    "criteria": {
+      "has_mushroom_stew": "2025-03-30 18:11:02 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/mushroom_stew": {
+    "criteria": {
+      "has_mushroom_stew": "2025-03-30 18:11:02 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/combat/leather_leggings_repairing": {
+    "criteria": {
+      "has_leather_leggings": "2025-03-30 18:11:56 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/combat/leather_gloves_repairing": {
+    "criteria": {
+      "has_leather_gloves": "2025-03-30 18:11:57 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/decorations/safety_net": {
+    "criteria": {
+      "has_rope": "2025-03-30 18:11:58 +0000"
     },
     "done": true
   },
@@ -2445,51 +2499,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/coast_armor_trim_smithing_template": {
-    "criteria": {
-      "has_coast_armor_trim_smithing_template": "2025-03-30 18:12:14 +0000"
-    },
-    "done": true
-  },
-  "packedup:recipes/misc/basic_from_chest": {
-    "criteria": {
-      "recipe_condition": "2025-03-30 18:14:43 +0000"
-    },
-    "done": true
-  },
-  "aether:recipes/decorations/skyroot_cartography_table": {
-    "criteria": {
-      "has_paper": "2025-03-30 18:12:15 +0000"
-    },
-    "done": true
-  },
   "somemoreblocks:recipes/building_blocks/mossy_bricks_from_moss_block": {
     "criteria": {
       "has_needed_items": "2025-03-30 18:11:59 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/book": {
-    "criteria": {
-      "has_paper": "2025-03-30 18:12:15 +0000"
-    },
-    "done": true
-  },
-  "aether:recipes/combat/leather_leggings_repairing": {
-    "criteria": {
-      "has_leather_leggings": "2025-03-30 18:11:56 +0000"
-    },
-    "done": true
-  },
-  "packedup:recipes/misc/iron_from_basic": {
-    "criteria": {
-      "recipe_condition": "2025-03-30 18:18:33 +0000"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/decorations/safety_net": {
-    "criteria": {
-      "has_rope": "2025-03-30 18:11:58 +0000"
     },
     "done": true
   },
@@ -2499,45 +2511,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/bowl": {
-    "criteria": {
-      "has_mushroom_stew": "2025-03-30 18:11:02 +0000"
-    },
-    "done": true
-  },
   "somemoreblocks:recipes/building_blocks/mossy_tuff_bricks_from_moss_block": {
     "criteria": {
       "has_needed_items": "2025-03-30 18:11:59 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/composter": {
-    "criteria": {
-      "has_wood_slab": "2025-03-30 18:10:43 +0000"
-    },
-    "done": true
-  },
-  "packedup:recipes/misc/copper_from_basic": {
-    "criteria": {
-      "recipe_condition": "2025-03-30 18:18:33 +0000"
-    },
-    "done": true
-  },
-  "packedup:basic_backpack": {
-    "criteria": {
-      "has_backpack": "2025-03-30 18:18:33 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/coast_armor_trim_smithing_template_smithing_trim": {
-    "criteria": {
-      "has_smithing_trim_template": "2025-03-30 18:12:14 +0000"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/cooking/cooked_rice": {
-    "criteria": {
-      "has_rice": "2025-03-30 18:06:49 +0000"
     },
     "done": true
   },
@@ -2571,21 +2547,9 @@
     },
     "done": true
   },
-  "farmersdelight:recipes/building_blocks/rice_bag": {
-    "criteria": {
-      "has_rice": "2025-03-30 18:06:49 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/moss_carpet": {
     "criteria": {
       "has_moss_block": "2025-03-30 18:11:59 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/cartography_table": {
-    "criteria": {
-      "has_paper": "2025-03-30 18:12:15 +0000"
     },
     "done": true
   },
@@ -2595,27 +2559,279 @@
     },
     "done": true
   },
-  "minecraft:recipes/food/mushroom_stew": {
-    "criteria": {
-      "has_mushroom_stew": "2025-03-30 18:11:02 +0000"
-    },
-    "done": true
-  },
-  "aether:recipes/combat/leather_gloves_repairing": {
-    "criteria": {
-      "has_leather_gloves": "2025-03-30 18:11:57 +0000"
-    },
-    "done": true
-  },
-  "somemoreblocks:recipes/building_blocks/dark_oak_mosaic": {
-    "criteria": {
-      "has_needed_items": "2025-03-30 18:10:43 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/mossy_stone_bricks_from_moss_block": {
     "criteria": {
       "has_moss_block": "2025-03-30 18:11:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/coast_armor_trim_smithing_template": {
+    "criteria": {
+      "has_coast_armor_trim_smithing_template": "2025-03-30 18:12:14 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/coast_armor_trim_smithing_template_smithing_trim": {
+    "criteria": {
+      "has_smithing_trim_template": "2025-03-30 18:12:14 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/decorations/skyroot_cartography_table": {
+    "criteria": {
+      "has_paper": "2025-03-30 18:12:15 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/book": {
+    "criteria": {
+      "has_paper": "2025-03-30 18:12:15 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/cartography_table": {
+    "criteria": {
+      "has_paper": "2025-03-30 18:12:15 +0000"
+    },
+    "done": true
+  },
+  "packedup:recipes/misc/basic_from_chest": {
+    "criteria": {
+      "recipe_condition": "2025-03-30 18:14:43 +0000"
+    },
+    "done": true
+  },
+  "packedup:recipes/misc/iron_from_basic": {
+    "criteria": {
+      "recipe_condition": "2025-03-30 18:18:33 +0000"
+    },
+    "done": true
+  },
+  "packedup:recipes/misc/copper_from_basic": {
+    "criteria": {
+      "recipe_condition": "2025-03-30 18:18:33 +0000"
+    },
+    "done": true
+  },
+  "packedup:basic_backpack": {
+    "criteria": {
+      "has_backpack": "2025-03-30 18:18:33 +0000"
+    },
+    "done": true
+  },
+  "packedup:iron_or_copper_backpack": {
+    "criteria": {
+      "has_iron_backpack": "2025-03-30 18:31:15 +0000"
+    },
+    "done": true
+  },
+  "packedup:recipes/misc/gold_from_iron": {
+    "criteria": {
+      "recipe_condition": "2025-03-30 18:31:15 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/redstone_torch": {
+    "criteria": {
+      "has_redstone": "2025-03-30 18:33:29 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/redstone/skyroot_piston": {
+    "criteria": {
+      "has_redstone": "2025-03-30 18:33:29 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/redstone/skyroot_note_block": {
+    "criteria": {
+      "has_redstone": "2025-03-30 18:33:29 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/compass": {
+    "criteria": {
+      "has_redstone": "2025-03-30 18:33:29 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/redstone_block": {
+    "criteria": {
+      "has_redstone": "2025-03-30 18:33:29 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/clock": {
+    "criteria": {
+      "has_redstone": "2025-03-30 18:33:29 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/note_block": {
+    "criteria": {
+      "has_redstone": "2025-03-30 18:33:29 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dropper": {
+    "criteria": {
+      "has_redstone": "2025-03-30 18:33:29 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/piston": {
+    "criteria": {
+      "has_redstone": "2025-03-30 18:33:29 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/combat/leather_chestplate_repairing": {
+    "criteria": {
+      "has_leather_chestplate": "2025-03-30 18:34:08 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/firework_rocket_simple": {
+    "criteria": {
+      "has_gunpowder": "2025-03-30 18:34:10 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/tnt": {
+    "criteria": {
+      "has_gunpowder": "2025-03-30 18:34:10 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_cod_from_smoking": {
+    "criteria": {
+      "has_cod": "2025-03-30 18:36:52 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_cod_from_campfire_cooking": {
+    "criteria": {
+      "has_cod": "2025-03-30 18:36:52 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_cod": {
+    "criteria": {
+      "has_cod": "2025-03-30 18:36:52 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/combat/leather_helmet_repairing": {
+    "criteria": {
+      "has_leather_helmet": "2025-03-30 18:37:13 +0000"
+    },
+    "done": true
+  },
+  "naturalist:recipes/naturalist/bug_net": {
+    "criteria": {
+      "has_bamboo": "2025-03-30 18:37:21 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/stick_from_bamboo_item": {
+    "criteria": {
+      "has_bamboo": "2025-03-30 18:37:21 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/bamboo_block": {
+    "criteria": {
+      "has_bamboo": "2025-03-30 18:37:21 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/scaffolding": {
+    "criteria": {
+      "has_bamboo": "2025-03-30 18:37:21 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/stuffed_pumpkin_block": {
+    "criteria": {
+      "has_pumpkin": "2025-03-30 18:47:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_oak_stairs": {
+    "criteria": {
+      "has_planks": "2025-03-30 18:44:31 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dark_oak_door": {
+    "criteria": {
+      "has_planks": "2025-03-30 18:44:31 +0000"
+    },
+    "done": true
+  },
+  "decorative_blocks:recipes/building_blocks/dark_oak_support": {
+    "criteria": {
+      "has_plank": "2025-03-30 18:44:31 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/dark_oak_sign": {
+    "criteria": {
+      "has_planks": "2025-03-30 18:44:31 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dark_oak_fence_gate": {
+    "criteria": {
+      "has_planks": "2025-03-30 18:44:31 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dark_oak_trapdoor": {
+    "criteria": {
+      "has_planks": "2025-03-30 18:44:31 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dark_oak_button": {
+    "criteria": {
+      "has_planks": "2025-03-30 18:44:31 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/pumpkin_soup": {
+    "criteria": {
+      "has_any_ingredient": "2025-03-30 18:47:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dark_oak_pressure_plate": {
+    "criteria": {
+      "has_planks": "2025-03-30 18:44:31 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/dark_oak_fence": {
+    "criteria": {
+      "has_planks": "2025-03-30 18:44:31 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_oak_slab": {
+    "criteria": {
+      "has_planks": "2025-03-30 18:44:31 +0000"
+    },
+    "done": true
+  },
+  "decorative_blocks:recipes/building_blocks/dark_oak_seat": {
+    "criteria": {
+      "has_plank": "2025-03-30 18:44:31 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/food/moa_egg_pumpkin_pie": {
+    "criteria": {
+      "has_pumpkin": "2025-03-30 18:47:22 +0000"
     },
     "done": true
   },

@@ -1,110 +1,110 @@
-[30Mar2025 18:02:35.958] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
-[30Mar2025 18:02:35.963] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.14 by Ubuntu; OS Linux arch amd64 version 6.8.0-1021-azure
-[30Mar2025 18:02:37.702] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
-[30Mar2025 18:02:37.729] [main/INFO] [optifine.OptiFineTransformationService/]: OptiFineTransformationService.onLoad
-[30Mar2025 18:02:37.732] [main/INFO] [optifine.OptiFineTransformationService/]: OptiFine ZIP file URL: union:/workspaces/server/servidor_minecraft/mods/OptiFine_1.20.1_HD_U_I6.jar%23143!/
-[30Mar2025 18:02:37.744] [main/INFO] [optifine.OptiFineTransformationService/]: OptiFine ZIP file: /workspaces/server/servidor_minecraft/mods/OptiFine_1.20.1_HD_U_I6.jar
-[30Mar2025 18:02:37.746] [main/INFO] [optifine.OptiFineTransformer/]: Target.PRE_CLASS is available
-[30Mar2025 18:02:37.860] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/server/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
-[30Mar2025 18:02:37.873] [main/INFO] [optifine.OptiFineTransformationService/]: OptiFineTransformationService.initialize
-[30Mar2025 18:02:38.322] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/server/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
-[30Mar2025 18:02:38.324] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/server/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[30Mar2025 18:02:38.326] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/server/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[30Mar2025 18:02:38.327] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/server/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[30Mar2025 18:02:38.670] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select two dependency jars from JarJar which have the same identification: Mod File:  and Mod File: . Using Mod File: 
-[30Mar2025 18:02:38.671] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 15 dependencies adding them to mods collection
-[30Mar2025 18:02:39.561] [main/INFO] [optifine.OptiFineTransformationService/]: OptiFineTransformationService.transformers
-[30Mar2025 18:02:39.576] [main/INFO] [optifine.OptiFineTransformer/]: Targets: 412
-[30Mar2025 18:02:40.269] [main/INFO] [optifine.OptiFineTransformationService/]: additionalClassesLocator: [optifine., net.optifine.]
-[30Mar2025 18:02:41.825] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
-[30Mar2025 18:02:41.939] [main/ERROR] [mixin/]: Mixin config furniture-common.mixins.json does not specify "minVersion" property
-[30Mar2025 18:02:41.996] [main/ERROR] [mixin/]: Mixin config yuushya.mixins.json does not specify "minVersion" property
-[30Mar2025 18:02:42.044] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
-[30Mar2025 18:02:42.641] [main/WARN] [mixin/]: Reference map 'apexcore.refmap.json' for apexcore.mixins.json could not be read. If this is a development environment you can ignore this message
-[30Mar2025 18:02:42.647] [main/WARN] [mixin/]: Reference map 'nitrogen_internals.refmap.json' for nitrogen_internals.mixins.json could not be read. If this is a development environment you can ignore this message
-[30Mar2025 18:02:42.663] [main/WARN] [mixin/]: Reference map 'cristellib-forge-refmap.json' for cristellib.mixins.json could not be read. If this is a development environment you can ignore this message
-[30Mar2025 18:02:44.295] [main/WARN] [mixin/]: Error loading class: com/simibubi/create/content/contraptions/actors/harvester/HarvesterMovementBehaviour (java.lang.ClassNotFoundException: com.simibubi.create.content.contraptions.actors.harvester.HarvesterMovementBehaviour)
-[30Mar2025 18:02:44.635] [main/WARN] [mixin/]: Error loading class: com/aetherteam/aether_genesis/block/natural/GreenAercloudBlock (java.lang.ClassNotFoundException: com.aetherteam.aether_genesis.block.natural.GreenAercloudBlock)
-[30Mar2025 18:02:44.636] [main/WARN] [mixin/]: @Mixin target com.aetherteam.aether_genesis.block.natural.GreenAercloudBlock was not found aether_redux.mixins.json:common.block.GreenAercloudBlockMixin
-[30Mar2025 18:02:44.641] [main/WARN] [mixin/]: Error loading class: com/aetherteam/aether_genesis/block/natural/OrangeTreeBlock (java.lang.ClassNotFoundException: com.aetherteam.aether_genesis.block.natural.OrangeTreeBlock)
-[30Mar2025 18:02:44.642] [main/WARN] [mixin/]: @Mixin target com.aetherteam.aether_genesis.block.natural.OrangeTreeBlock was not found aether_redux.mixins.json:common.block.OrangeTreeMixin
-[30Mar2025 18:02:44.645] [main/WARN] [mixin/]: Error loading class: com/aetherteam/aether_genesis/block/natural/PurpleAercloudBlock (java.lang.ClassNotFoundException: com.aetherteam.aether_genesis.block.natural.PurpleAercloudBlock)
-[30Mar2025 18:02:44.646] [main/WARN] [mixin/]: @Mixin target com.aetherteam.aether_genesis.block.natural.PurpleAercloudBlock was not found aether_redux.mixins.json:common.block.PurpleAercloudBlockMixin
-[30Mar2025 18:02:44.654] [main/WARN] [mixin/]: Error loading class: snownee/jade/addon/core/ModNameProvider (java.lang.ClassNotFoundException: snownee.jade.addon.core.ModNameProvider)
-[30Mar2025 18:02:44.654] [main/WARN] [mixin/]: @Mixin target snownee.jade.addon.core.ModNameProvider was not found aether_redux.mixins.json:common.compat.ModNameProviderMixin
-[30Mar2025 18:02:45.062] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.5).
-[30Mar2025 18:02:55.538] [modloading-worker-0/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Initialize mod Library Ferret
-[30Mar2025 18:02:55.569] [modloading-worker-0/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Initialized mod Library Ferret
-[30Mar2025 18:02:56.090] [modloading-worker-0/INFO] [Some More Blocks/]: Some More Blocks mod initialized!
-[30Mar2025 18:02:56.090] [modloading-worker-0/INFO] [Some More Blocks/]: Our Links: https://sefacestudios.net/links
-[30Mar2025 18:02:56.471] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
-[30Mar2025 18:02:56.472] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.7 Initialized
-[30Mar2025 18:02:57.220] [modloading-worker-0/INFO] [xyz.apex.forge.commonality.Mods.CommonalityMod/]: Running Minecraft '1.20.1', & Forge '47.3.7' on Java '17.0.14, Ubuntu'
-[30Mar2025 18:02:57.228] [modloading-worker-0/INFO] [TrustedSourceList/]: Loading BlackListed sources from remote... (https://api.stopmodreposts.org/minecraft/sites.txt)
-[30Mar2025 18:02:57.465] [modloading-worker-0/INFO] [com.aetherteam.cumulus.Cumulus/]: Disabling Cumulus as it is on server.
-[30Mar2025 18:02:57.666] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
-[30Mar2025 18:02:57.716] [modloading-worker-0/INFO] [TrustManager/]: Loading mod 'apexcore' TrustWorthiness...
-[30Mar2025 18:02:57.716] [modloading-worker-0/FATAL] [TrustManager/]: Could not determine mod trust worthiness, Assuming Jar was downloaded from trusted source!
-[30Mar2025 18:02:57.717] [modloading-worker-0/INFO] [TrustManager/]: Loaded mod 'apexcore' TrustWorthiness: UNKNOWN
-[30Mar2025 18:02:57.770] [modloading-worker-0/INFO] [TrustManager/]: Loading mod 'fantasyfurniture' TrustWorthiness...
-[30Mar2025 18:02:57.772] [modloading-worker-0/FATAL] [TrustManager/]: Could not determine mod trust worthiness, Assuming Jar was downloaded from trusted source!
-[30Mar2025 18:02:57.773] [modloading-worker-0/INFO] [TrustManager/]: Loaded mod 'fantasyfurniture' TrustWorthiness: UNKNOWN
-[30Mar2025 18:02:59.781] [modloading-worker-0/INFO] [TrustedSourceList/]: Loaded 564 BlackListed sources from remote
-[30Mar2025 18:02:59.782] [modloading-worker-0/INFO] [TrustManager/]: Loading mod 'commonality' TrustWorthiness...
-[30Mar2025 18:02:59.782] [modloading-worker-0/FATAL] [TrustManager/]: Could not determine mod trust worthiness, Assuming Jar was downloaded from trusted source!
-[30Mar2025 18:02:59.784] [modloading-worker-0/INFO] [TrustManager/]: Loaded mod 'commonality' TrustWorthiness: UNKNOWN
-[30Mar2025 18:03:01.465] [modloading-worker-0/INFO] [yuushya/]: Yuushya has been loaded successfully!
-[30Mar2025 18:03:10.329] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.modderg.tameablebeasts.server.entity.TBAnimal from interface com.modderg.tameablebeasts.server.entity.TBRideable
-[30Mar2025 18:03:10.333] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.modderg.tameablebeasts.server.entity.TBAnimal from class com.modderg.tameablebeasts.server.entity.custom.GroundBeetleEntity
-[30Mar2025 18:03:10.382] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.animal.sniffer.Sniffer from class com.mysticsbiomes.common.entity.animal.SeaOtter
-[30Mar2025 18:03:10.689] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [aether] Starting version check at https://github.com/The-Aether-Team/The-Aether/raw/1.20.1-develop/update.json
-[30Mar2025 18:03:10.908] [main/INFO] [journeymap/]: Initializing Packet Registries
-[30Mar2025 18:03:10.954] [main/INFO] [terrablender/]: Registered region minecraft:overworld to index 0 for type OVERWORLD
-[30Mar2025 18:03:10.955] [main/INFO] [terrablender/]: Registered region minecraft:nether to index 0 for type NETHER
-[30Mar2025 18:03:10.955] [main/INFO] [terrablender/]: Registered region aether:the_aether to index 0 for type THE_AETHER
-[30Mar2025 18:03:10.956] [main/INFO] [terrablender/]: Registered region mysticsbiomes:overworld_provider to index 1 for type OVERWORLD
-[30Mar2025 18:03:10.997] [main/INFO] [terrablender/]: Registered region aether_redux:aether_redux_region to index 1 for type THE_AETHER
-[30Mar2025 18:03:11.107] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [aether] Found status: UP_TO_DATE Current: 1.20.1-1.5.2-neoforge Target: null
-[30Mar2025 18:03:11.107] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Starting version check at https://forge.curseupdate.com/32274/journeymap
-[30Mar2025 18:03:11.199] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Found status: UP_TO_DATE Current: 5.10.3 Target: null
-[30Mar2025 18:03:11.199] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [somemoreblocks] Starting version check at https://github.com/Seface-Studios/some-more-blocks/raw/refs/heads/main/.github/forge-update.json
-[30Mar2025 18:03:11.310] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [somemoreblocks] Found status: UP_TO_DATE Current: 1.0.2-bp Target: null
-[30Mar2025 18:03:11.310] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[30Mar2025 18:03:11.470] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.7 Target: 47.4.0
-[30Mar2025 18:03:11.471] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [commonality] Starting version check at https://api.modrinth.com/updates/apexcore/forge_updates.json
-[30Mar2025 18:03:11.595] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [commonality] Found status: OUTDATED Current: 7.0.0 Target: 10.0.0
-[30Mar2025 18:03:11.595] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cumulus_menus] Starting version check at https://github.com/The-Aether-Team/Cumulus/raw/1.20.1-develop/update.json
-[30Mar2025 18:03:11.614] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cumulus_menus] Found status: UP_TO_DATE Current: 1.20.1-1.0.1-neoforge Target: null
-[30Mar2025 18:03:11.614] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [apexcore] Starting version check at https://api.modrinth.com/updates/apexcore/forge_updates.json
-[30Mar2025 18:03:11.827] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [apexcore] Found status: UP_TO_DATE Current: 10.0.0 Target: null
-[30Mar2025 18:03:11.827] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [fantasyfurniture] Starting version check at https://api.modrinth.com/updates/fantasy-furniture/forge_updates.json
-[30Mar2025 18:03:11.939] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [fantasyfurniture] Found status: UP_TO_DATE Current: 9.0.0 Target: null
-[30Mar2025 18:03:27.281] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[30Mar2025 18:03:37.626] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/server/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23187!/assets/.mcassetsroot' uses unexpected schema
-[30Mar2025 18:03:37.627] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/server/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23187!/data/.mcassetsroot' uses unexpected schema
-[30Mar2025 18:03:38.577] [main/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Structure placement for `awesomedungeon:abandoned_oak_palace/start_pool`: { spacing: 50, separation: 25, salt: 1694767080, useValueFromConfiguration: true}
-[30Mar2025 18:03:38.577] [main/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Structure placement for `awesomedungeon:better_default_jungle_temple/start_pool`: { spacing: 50, separation: 25, salt: 1654787080, useValueFromConfiguration: true}
-[30Mar2025 18:03:38.579] [main/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Structure placement for `awesomedungeon:desert_temple_husk/start_pool`: { spacing: 50, separation: 25, salt: 1394767080, useValueFromConfiguration: true}
-[30Mar2025 18:03:38.580] [main/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Structure placement for `awesomedungeon:jungle_giant_tree/start_pool`: { spacing: 50, separation: 25, salt: 1494763380, useValueFromConfiguration: true}
-[30Mar2025 18:03:38.581] [main/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Structure placement for `awesomedungeon:mushroom_abandonned/start_pool`: { spacing: 50, separation: 25, salt: 1494227080, useValueFromConfiguration: true}
-[30Mar2025 18:03:38.583] [main/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Structure placement for `awesomedungeon:swamp_big_temple/start_pool`: { spacing: 50, separation: 25, salt: 1594763280, useValueFromConfiguration: true}
-[30Mar2025 18:03:38.583] [main/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Structure placement for `awesomedungeon:the_usine/start_pool`: { spacing: 50, separation: 25, salt: 1694767078, useValueFromConfiguration: true}
-[30Mar2025 18:03:38.583] [main/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Structure placement for `awesomedungeon:t_z_tower/start_pool`: { spacing: 50, separation: 25, salt: 1794767078, useValueFromConfiguration: true}
-[30Mar2025 18:03:38.584] [main/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Structure placement for `awesomedungeon:witch_castle/start_pool`: { spacing: 50, separation: 25, salt: 1894776078, useValueFromConfiguration: true}
-[30Mar2025 18:03:39.554] [main/INFO] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Adding datapack listener capsid_recipes
-[30Mar2025 18:03:39.737] [Worker-Main-2/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag aether_villages:collections/deep_aether_biomes as it is missing following references: deep_aether:aerlavender_fields (from AetherVillages-1.20.1-1.0.7-forge.jar), 
-	deep_aether:aerglow_forest (from AetherVillages-1.20.1-1.0.7-forge.jar), 
-	deep_aether:yagroot_swamp (from AetherVillages-1.20.1-1.0.7-forge.jar)
-[30Mar2025 18:03:39.738] [Worker-Main-2/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag aether_villages:collections/ancient_aether_biomes as it is missing following references: #ancient_aether:is_ancient_aether_biome (from AetherVillages-1.20.1-1.0.7-forge.jar)
-[30Mar2025 18:03:39.860] [Worker-Main-1/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag aether_redux:swet_jelly as it is missing following references: aether_genesis:blue_swet_jelly (from aether-redux-2.0.18-1.20.1-neoforge.jar), 
+[30Mar2025 18:40:56.082] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
+[30Mar2025 18:40:56.087] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.14 by Ubuntu; OS Linux arch amd64 version 6.8.0-1021-azure
+[30Mar2025 18:40:57.698] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[30Mar2025 18:40:57.707] [main/INFO] [optifine.OptiFineTransformationService/]: OptiFineTransformationService.onLoad
+[30Mar2025 18:40:57.708] [main/INFO] [optifine.OptiFineTransformationService/]: OptiFine ZIP file URL: union:/workspaces/server/servidor_minecraft/mods/OptiFine_1.20.1_HD_U_I6.jar%23143!/
+[30Mar2025 18:40:57.714] [main/INFO] [optifine.OptiFineTransformationService/]: OptiFine ZIP file: /workspaces/server/servidor_minecraft/mods/OptiFine_1.20.1_HD_U_I6.jar
+[30Mar2025 18:40:57.716] [main/INFO] [optifine.OptiFineTransformer/]: Target.PRE_CLASS is available
+[30Mar2025 18:40:57.836] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/server/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
+[30Mar2025 18:40:57.849] [main/INFO] [optifine.OptiFineTransformationService/]: OptiFineTransformationService.initialize
+[30Mar2025 18:40:58.277] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/server/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
+[30Mar2025 18:40:58.279] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/server/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[30Mar2025 18:40:58.281] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/server/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[30Mar2025 18:40:58.282] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/server/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[30Mar2025 18:40:58.601] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select two dependency jars from JarJar which have the same identification: Mod File:  and Mod File: . Using Mod File: 
+[30Mar2025 18:40:58.603] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 15 dependencies adding them to mods collection
+[30Mar2025 18:40:59.390] [main/INFO] [optifine.OptiFineTransformationService/]: OptiFineTransformationService.transformers
+[30Mar2025 18:40:59.401] [main/INFO] [optifine.OptiFineTransformer/]: Targets: 412
+[30Mar2025 18:41:00.105] [main/INFO] [optifine.OptiFineTransformationService/]: additionalClassesLocator: [optifine., net.optifine.]
+[30Mar2025 18:41:01.842] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[30Mar2025 18:41:01.922] [main/ERROR] [mixin/]: Mixin config furniture-common.mixins.json does not specify "minVersion" property
+[30Mar2025 18:41:01.926] [main/ERROR] [mixin/]: Mixin config yuushya.mixins.json does not specify "minVersion" property
+[30Mar2025 18:41:01.956] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
+[30Mar2025 18:41:02.370] [main/WARN] [mixin/]: Reference map 'apexcore.refmap.json' for apexcore.mixins.json could not be read. If this is a development environment you can ignore this message
+[30Mar2025 18:41:02.375] [main/WARN] [mixin/]: Reference map 'nitrogen_internals.refmap.json' for nitrogen_internals.mixins.json could not be read. If this is a development environment you can ignore this message
+[30Mar2025 18:41:02.393] [main/WARN] [mixin/]: Reference map 'cristellib-forge-refmap.json' for cristellib.mixins.json could not be read. If this is a development environment you can ignore this message
+[30Mar2025 18:41:03.345] [main/WARN] [mixin/]: Error loading class: com/simibubi/create/content/contraptions/actors/harvester/HarvesterMovementBehaviour (java.lang.ClassNotFoundException: com.simibubi.create.content.contraptions.actors.harvester.HarvesterMovementBehaviour)
+[30Mar2025 18:41:03.704] [main/WARN] [mixin/]: Error loading class: com/aetherteam/aether_genesis/block/natural/GreenAercloudBlock (java.lang.ClassNotFoundException: com.aetherteam.aether_genesis.block.natural.GreenAercloudBlock)
+[30Mar2025 18:41:03.705] [main/WARN] [mixin/]: @Mixin target com.aetherteam.aether_genesis.block.natural.GreenAercloudBlock was not found aether_redux.mixins.json:common.block.GreenAercloudBlockMixin
+[30Mar2025 18:41:03.713] [main/WARN] [mixin/]: Error loading class: com/aetherteam/aether_genesis/block/natural/OrangeTreeBlock (java.lang.ClassNotFoundException: com.aetherteam.aether_genesis.block.natural.OrangeTreeBlock)
+[30Mar2025 18:41:03.713] [main/WARN] [mixin/]: @Mixin target com.aetherteam.aether_genesis.block.natural.OrangeTreeBlock was not found aether_redux.mixins.json:common.block.OrangeTreeMixin
+[30Mar2025 18:41:03.717] [main/WARN] [mixin/]: Error loading class: com/aetherteam/aether_genesis/block/natural/PurpleAercloudBlock (java.lang.ClassNotFoundException: com.aetherteam.aether_genesis.block.natural.PurpleAercloudBlock)
+[30Mar2025 18:41:03.718] [main/WARN] [mixin/]: @Mixin target com.aetherteam.aether_genesis.block.natural.PurpleAercloudBlock was not found aether_redux.mixins.json:common.block.PurpleAercloudBlockMixin
+[30Mar2025 18:41:03.727] [main/WARN] [mixin/]: Error loading class: snownee/jade/addon/core/ModNameProvider (java.lang.ClassNotFoundException: snownee.jade.addon.core.ModNameProvider)
+[30Mar2025 18:41:03.727] [main/WARN] [mixin/]: @Mixin target snownee.jade.addon.core.ModNameProvider was not found aether_redux.mixins.json:common.compat.ModNameProviderMixin
+[30Mar2025 18:41:03.920] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.5).
+[30Mar2025 18:41:13.263] [modloading-worker-0/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Initialize mod Library Ferret
+[30Mar2025 18:41:13.316] [modloading-worker-0/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Initialized mod Library Ferret
+[30Mar2025 18:41:13.622] [modloading-worker-0/INFO] [Some More Blocks/]: Some More Blocks mod initialized!
+[30Mar2025 18:41:13.623] [modloading-worker-0/INFO] [Some More Blocks/]: Our Links: https://sefacestudios.net/links
+[30Mar2025 18:41:14.073] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
+[30Mar2025 18:41:14.073] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.7 Initialized
+[30Mar2025 18:41:14.437] [modloading-worker-0/INFO] [xyz.apex.forge.commonality.Mods.CommonalityMod/]: Running Minecraft '1.20.1', & Forge '47.3.7' on Java '17.0.14, Ubuntu'
+[30Mar2025 18:41:14.443] [modloading-worker-0/INFO] [TrustedSourceList/]: Loading BlackListed sources from remote... (https://api.stopmodreposts.org/minecraft/sites.txt)
+[30Mar2025 18:41:14.848] [modloading-worker-0/INFO] [com.aetherteam.cumulus.Cumulus/]: Disabling Cumulus as it is on server.
+[30Mar2025 18:41:15.071] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
+[30Mar2025 18:41:15.120] [modloading-worker-0/INFO] [TrustManager/]: Loading mod 'apexcore' TrustWorthiness...
+[30Mar2025 18:41:15.120] [modloading-worker-0/FATAL] [TrustManager/]: Could not determine mod trust worthiness, Assuming Jar was downloaded from trusted source!
+[30Mar2025 18:41:15.120] [modloading-worker-0/INFO] [TrustManager/]: Loaded mod 'apexcore' TrustWorthiness: UNKNOWN
+[30Mar2025 18:41:15.251] [modloading-worker-0/INFO] [TrustManager/]: Loading mod 'fantasyfurniture' TrustWorthiness...
+[30Mar2025 18:41:15.253] [modloading-worker-0/FATAL] [TrustManager/]: Could not determine mod trust worthiness, Assuming Jar was downloaded from trusted source!
+[30Mar2025 18:41:15.253] [modloading-worker-0/INFO] [TrustManager/]: Loaded mod 'fantasyfurniture' TrustWorthiness: UNKNOWN
+[30Mar2025 18:41:15.897] [modloading-worker-0/INFO] [TrustedSourceList/]: Loaded 564 BlackListed sources from remote
+[30Mar2025 18:41:15.900] [modloading-worker-0/INFO] [TrustManager/]: Loading mod 'commonality' TrustWorthiness...
+[30Mar2025 18:41:15.901] [modloading-worker-0/FATAL] [TrustManager/]: Could not determine mod trust worthiness, Assuming Jar was downloaded from trusted source!
+[30Mar2025 18:41:15.903] [modloading-worker-0/INFO] [TrustManager/]: Loaded mod 'commonality' TrustWorthiness: UNKNOWN
+[30Mar2025 18:41:18.741] [modloading-worker-0/INFO] [yuushya/]: Yuushya has been loaded successfully!
+[30Mar2025 18:41:28.848] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.modderg.tameablebeasts.server.entity.TBAnimal from interface com.modderg.tameablebeasts.server.entity.TBRideable
+[30Mar2025 18:41:28.853] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.modderg.tameablebeasts.server.entity.TBAnimal from class com.modderg.tameablebeasts.server.entity.custom.GroundBeetleEntity
+[30Mar2025 18:41:28.927] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.animal.sniffer.Sniffer from class com.mysticsbiomes.common.entity.animal.SeaOtter
+[30Mar2025 18:41:29.936] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [aether] Starting version check at https://github.com/The-Aether-Team/The-Aether/raw/1.20.1-develop/update.json
+[30Mar2025 18:41:29.971] [main/INFO] [journeymap/]: Initializing Packet Registries
+[30Mar2025 18:41:30.023] [main/INFO] [terrablender/]: Registered region minecraft:overworld to index 0 for type OVERWORLD
+[30Mar2025 18:41:30.024] [main/INFO] [terrablender/]: Registered region minecraft:nether to index 0 for type NETHER
+[30Mar2025 18:41:30.024] [main/INFO] [terrablender/]: Registered region aether:the_aether to index 0 for type THE_AETHER
+[30Mar2025 18:41:30.024] [main/INFO] [terrablender/]: Registered region mysticsbiomes:overworld_provider to index 1 for type OVERWORLD
+[30Mar2025 18:41:30.087] [main/INFO] [terrablender/]: Registered region aether_redux:aether_redux_region to index 1 for type THE_AETHER
+[30Mar2025 18:41:30.177] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [aether] Found status: UP_TO_DATE Current: 1.20.1-1.5.2-neoforge Target: null
+[30Mar2025 18:41:30.178] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Starting version check at https://forge.curseupdate.com/32274/journeymap
+[30Mar2025 18:41:30.287] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Found status: UP_TO_DATE Current: 5.10.3 Target: null
+[30Mar2025 18:41:30.287] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [somemoreblocks] Starting version check at https://github.com/Seface-Studios/some-more-blocks/raw/refs/heads/main/.github/forge-update.json
+[30Mar2025 18:41:30.487] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [somemoreblocks] Found status: UP_TO_DATE Current: 1.0.2-bp Target: null
+[30Mar2025 18:41:30.488] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[30Mar2025 18:41:30.608] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.7 Target: 47.4.0
+[30Mar2025 18:41:30.608] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [commonality] Starting version check at https://api.modrinth.com/updates/apexcore/forge_updates.json
+[30Mar2025 18:41:30.844] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [commonality] Found status: OUTDATED Current: 7.0.0 Target: 10.0.0
+[30Mar2025 18:41:30.845] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cumulus_menus] Starting version check at https://github.com/The-Aether-Team/Cumulus/raw/1.20.1-develop/update.json
+[30Mar2025 18:41:30.871] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cumulus_menus] Found status: UP_TO_DATE Current: 1.20.1-1.0.1-neoforge Target: null
+[30Mar2025 18:41:30.872] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [apexcore] Starting version check at https://api.modrinth.com/updates/apexcore/forge_updates.json
+[30Mar2025 18:41:30.983] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [apexcore] Found status: UP_TO_DATE Current: 10.0.0 Target: null
+[30Mar2025 18:41:30.985] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [fantasyfurniture] Starting version check at https://api.modrinth.com/updates/fantasy-furniture/forge_updates.json
+[30Mar2025 18:41:31.044] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [fantasyfurniture] Found status: UP_TO_DATE Current: 9.0.0 Target: null
+[30Mar2025 18:41:46.908] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[30Mar2025 18:41:58.100] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/server/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23187!/assets/.mcassetsroot' uses unexpected schema
+[30Mar2025 18:41:58.100] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/server/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23187!/data/.mcassetsroot' uses unexpected schema
+[30Mar2025 18:41:58.830] [main/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Structure placement for `awesomedungeon:abandoned_oak_palace/start_pool`: { spacing: 50, separation: 25, salt: 1694767080, useValueFromConfiguration: true}
+[30Mar2025 18:41:58.834] [main/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Structure placement for `awesomedungeon:better_default_jungle_temple/start_pool`: { spacing: 50, separation: 25, salt: 1654787080, useValueFromConfiguration: true}
+[30Mar2025 18:41:58.836] [main/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Structure placement for `awesomedungeon:desert_temple_husk/start_pool`: { spacing: 50, separation: 25, salt: 1394767080, useValueFromConfiguration: true}
+[30Mar2025 18:41:58.842] [main/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Structure placement for `awesomedungeon:jungle_giant_tree/start_pool`: { spacing: 50, separation: 25, salt: 1494763380, useValueFromConfiguration: true}
+[30Mar2025 18:41:58.843] [main/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Structure placement for `awesomedungeon:mushroom_abandonned/start_pool`: { spacing: 50, separation: 25, salt: 1494227080, useValueFromConfiguration: true}
+[30Mar2025 18:41:58.856] [main/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Structure placement for `awesomedungeon:swamp_big_temple/start_pool`: { spacing: 50, separation: 25, salt: 1594763280, useValueFromConfiguration: true}
+[30Mar2025 18:41:58.857] [main/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Structure placement for `awesomedungeon:the_usine/start_pool`: { spacing: 50, separation: 25, salt: 1694767078, useValueFromConfiguration: true}
+[30Mar2025 18:41:58.857] [main/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Structure placement for `awesomedungeon:t_z_tower/start_pool`: { spacing: 50, separation: 25, salt: 1794767078, useValueFromConfiguration: true}
+[30Mar2025 18:41:58.859] [main/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Structure placement for `awesomedungeon:witch_castle/start_pool`: { spacing: 50, separation: 25, salt: 1894776078, useValueFromConfiguration: true}
+[30Mar2025 18:42:00.059] [main/INFO] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Adding datapack listener capsid_recipes
+[30Mar2025 18:42:00.385] [Worker-Main-3/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag aether_redux:swet_jelly as it is missing following references: aether_genesis:blue_swet_jelly (from aether-redux-2.0.18-1.20.1-neoforge.jar), 
 	aether_genesis:golden_swet_jelly (from aether-redux-2.0.18-1.20.1-neoforge.jar), 
 	aether_genesis:dark_swet_jelly (from aether-redux-2.0.18-1.20.1-neoforge.jar)
-[30Mar2025 18:03:39.958] [Worker-Main-3/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag plushie_buddies:plushie_block as it is missing following references: plushie_buddies:plushie_allay_skull (from plushie_buddies-0.1.3-1.20.1.jar)
-[30Mar2025 18:03:39.969] [Worker-Main-3/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag forge:couch as it is missing following references: cozy_home:couch_oak_white_middle (from cozy_home-3.0.4-forge-1.20.1.jar), 
+[30Mar2025 18:42:00.402] [Worker-Main-1/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag aether_villages:collections/deep_aether_biomes as it is missing following references: deep_aether:aerlavender_fields (from AetherVillages-1.20.1-1.0.7-forge.jar), 
+	deep_aether:aerglow_forest (from AetherVillages-1.20.1-1.0.7-forge.jar), 
+	deep_aether:yagroot_swamp (from AetherVillages-1.20.1-1.0.7-forge.jar)
+[30Mar2025 18:42:00.405] [Worker-Main-1/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag aether_villages:collections/ancient_aether_biomes as it is missing following references: #ancient_aether:is_ancient_aether_biome (from AetherVillages-1.20.1-1.0.7-forge.jar)
+[30Mar2025 18:42:00.464] [Worker-Main-2/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag plushie_buddies:plushie_block as it is missing following references: plushie_buddies:plushie_allay_skull (from plushie_buddies-0.1.3-1.20.1.jar)
+[30Mar2025 18:42:00.484] [Worker-Main-2/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag forge:couch as it is missing following references: cozy_home:couch_oak_white_middle (from cozy_home-3.0.4-forge-1.20.1.jar), 
 	cozy_home:couch_oak_white_right (from cozy_home-3.0.4-forge-1.20.1.jar), 
 	cozy_home:couch_oak_white (from cozy_home-3.0.4-forge-1.20.1.jar), 
 	cozy_home:couch_oak_white_left (from cozy_home-3.0.4-forge-1.20.1.jar)
-[30Mar2025 18:03:39.983] [Worker-Main-3/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag fabric:needs_tool_level_0 as it is missing following references: cozy_home:oak_planked_wall (from cozy_home-3.0.4-forge-1.20.1.jar), 
+[30Mar2025 18:42:00.498] [Worker-Main-2/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag fabric:needs_tool_level_0 as it is missing following references: cozy_home:oak_planked_wall (from cozy_home-3.0.4-forge-1.20.1.jar), 
 	cozy_home:spruce_planked_wall (from cozy_home-3.0.4-forge-1.20.1.jar), 
 	cozy_home:birch_planked_wall (from cozy_home-3.0.4-forge-1.20.1.jar), 
 	cozy_home:acacia_planked_wall (from cozy_home-3.0.4-forge-1.20.1.jar), 
@@ -538,7 +538,7 @@
 	cozy_home:warped_bench_left (from cozy_home-3.0.4-forge-1.20.1.jar), 
 	cozy_home:warped_bench_middle (from cozy_home-3.0.4-forge-1.20.1.jar), 
 	cozy_home:warped_bench_right (from cozy_home-3.0.4-forge-1.20.1.jar)
-[30Mar2025 18:03:40.001] [Worker-Main-3/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag fabric:needs_tool_level_1 as it is missing following references: cozy_home:counter_oak (from cozy_home-3.0.4-forge-1.20.1.jar), 
+[30Mar2025 18:42:00.525] [Worker-Main-2/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag fabric:needs_tool_level_1 as it is missing following references: cozy_home:counter_oak (from cozy_home-3.0.4-forge-1.20.1.jar), 
 	cozy_home:counter_oak_storage (from cozy_home-3.0.4-forge-1.20.1.jar), 
 	cozy_home:counter_oak_sink (from cozy_home-3.0.4-forge-1.20.1.jar), 
 	cozy_home:counter_spruce (from cozy_home-3.0.4-forge-1.20.1.jar), 
@@ -664,7 +664,7 @@
 	cozy_home:fireplace_oak_bottom_left (from cozy_home-3.0.4-forge-1.20.1.jar), 
 	cozy_home:fireplace_oak_bottom_middle (from cozy_home-3.0.4-forge-1.20.1.jar), 
 	cozy_home:fireplace_oak_bottom_right (from cozy_home-3.0.4-forge-1.20.1.jar)
-[30Mar2025 18:03:40.962] [Worker-Main-2/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:ancient_aether:selectors/aerogetic_vase_loot
+[30Mar2025 18:42:01.411] [Worker-Main-3/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:ancient_aether:selectors/aerogetic_vase_loot
 com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'ancient_aether:grapes'
 	at net.minecraft.util.GsonHelper.m_13866_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23187!/:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -716,7 +716,7 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
-[30Mar2025 18:03:41.061] [Worker-Main-2/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:naturalist:entities/tortoise
+[30Mar2025 18:42:01.526] [Worker-Main-3/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:naturalist:entities/tortoise
 com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'minecraft:turtle_scute'
 	at net.minecraft.util.GsonHelper.m_13866_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23187!/:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -768,7 +768,7 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
-[30Mar2025 18:03:41.074] [Worker-Main-2/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:yuushya:blocks/painter_gift_box
+[30Mar2025 18:42:01.535] [Worker-Main-3/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:yuushya:blocks/painter_gift_box
 com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'yuushya:get_lit_item'
 	at net.minecraft.util.GsonHelper.m_13866_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23187!/:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -820,7 +820,7 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
-[30Mar2025 18:03:41.081] [Worker-Main-2/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:plushie_buddies:blocks/plushie_allay_skull
+[30Mar2025 18:42:01.538] [Worker-Main-3/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:plushie_buddies:blocks/plushie_allay_skull
 com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'plushie_buddies:plushie_allay_skull'
 	at net.minecraft.util.GsonHelper.m_13866_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23187!/:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -872,7 +872,7 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
-[30Mar2025 18:03:41.416] [Worker-Main-2/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:lost_aether_content:chests/platinum_treasure_loot
+[30Mar2025 18:42:01.888] [Worker-Main-3/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:lost_aether_content:chests/platinum_treasure_loot
 com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'lost_aether_content:shield_of_emile'
 	at net.minecraft.util.GsonHelper.m_13866_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23187!/:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -924,7 +924,7 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
-[30Mar2025 18:03:41.643] [Worker-Main-2/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:aether_villages:chests/olympic_citadel/olympic_citadel_supply
+[30Mar2025 18:42:02.196] [Worker-Main-3/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:aether_villages:chests/olympic_citadel/olympic_citadel_supply
 com.google.gson.JsonSyntaxException: Unknown type 'minecraft:set_components'
 	at net.minecraft.world.level.storage.loot.GsonAdapterFactory$JsonAdapter.deserialize(GsonAdapterFactory.java:99) ~[server-1.20.1-20230612.114412-srg.jar%23187!/:?]
 	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
@@ -980,7 +980,7 @@ com.google.gson.JsonSyntaxException: Unknown type 'minecraft:set_components'
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
-[30Mar2025 18:03:41.775] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe aether_treasure_reforging:valkyrie_upgrade_smithing_template
+[30Mar2025 18:42:02.361] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe aether_treasure_reforging:valkyrie_upgrade_smithing_template
 com.google.gson.JsonSyntaxException: Unknown item 'aether_treasure_reforging:valkyrie_upgrade_smithing_template'
 	at net.minecraft.world.item.crafting.ShapedRecipe.m_151280_(ShapedRecipe.java:292) ~[server-1.20.1-20230612.114412-srg.jar%23187!/:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -1018,10 +1018,10 @@ com.google.gson.JsonSyntaxException: Unknown item 'aether_treasure_reforging:val
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
-[30Mar2025 18:03:41.795] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe aether_redux:glacia_wood_wall as it's serializer returned null
-[30Mar2025 18:03:41.804] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe aether_redux:crystal_log_wall as it's serializer returned null
-[30Mar2025 18:03:41.817] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe botanypots:rusticdelight/crop/wild_bell_peppers as it's serializer returned null
-[30Mar2025 18:03:41.821] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe aether_redux:spore_blight_deep_aether_aether_moss_carpet_to_blightmoss_carpet
+[30Mar2025 18:42:02.384] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe aether_redux:glacia_wood_wall as it's serializer returned null
+[30Mar2025 18:42:02.396] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe aether_redux:crystal_log_wall as it's serializer returned null
+[30Mar2025 18:42:02.410] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe botanypots:rusticdelight/crop/wild_bell_peppers as it's serializer returned null
+[30Mar2025 18:42:02.413] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe aether_redux:spore_blight_deep_aether_aether_moss_carpet_to_blightmoss_carpet
 com.google.gson.JsonSyntaxException: Invalid block: deep_aether:aether_moss_carpet
 	at com.aetherteam.nitrogen.recipe.BlockStateRecipeUtil.blockFromJson(BlockStateRecipeUtil.java:239) ~[nitrogen_internals-1.20.1-1.0.12-neoforge.jar%23221!/:1.20.1-1.0.12-neoforge]
 	at com.aetherteam.nitrogen.recipe.BlockStateIngredient.valueFromJson(BlockStateIngredient.java:144) ~[nitrogen_internals-1.20.1-1.0.12-neoforge.jar%23221!/:1.20.1-1.0.12-neoforge]
@@ -1054,8 +1054,8 @@ com.google.gson.JsonSyntaxException: Invalid block: deep_aether:aether_moss_carp
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
-[30Mar2025 18:03:41.853] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe rusticdelight:brewing/coffee as it's serializer returned null
-[30Mar2025 18:03:41.935] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe cozy_home:drawer_quartz_recipe
+[30Mar2025 18:42:02.442] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe rusticdelight:brewing/coffee as it's serializer returned null
+[30Mar2025 18:42:02.511] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe cozy_home:drawer_quartz_recipe
 com.google.gson.JsonSyntaxException: Unknown item 'cozy_home:deleted_mod_element'
 	at net.minecraftforge.common.crafting.CraftingHelper.getItem(CraftingHelper.java:160) ~[forge-1.20.1-47.3.7-universal.jar%23192!/:?]
 	at net.minecraftforge.common.crafting.CraftingHelper.getItemStack(CraftingHelper.java:186) ~[forge-1.20.1-47.3.7-universal.jar%23192!/:?]
@@ -1088,7 +1088,7 @@ com.google.gson.JsonSyntaxException: Unknown item 'cozy_home:deleted_mod_element
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
-[30Mar2025 18:03:41.938] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe aether_redux:genesis_dark_gummy_swet
+[30Mar2025 18:42:02.514] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe aether_redux:genesis_dark_gummy_swet
 com.google.gson.JsonSyntaxException: Unknown item 'aether_genesis:dark_swet_ball'
 	at net.minecraft.world.item.crafting.ShapedRecipe.m_151280_(ShapedRecipe.java:292) ~[server-1.20.1-20230612.114412-srg.jar%23187!/:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -1129,7 +1129,7 @@ com.google.gson.JsonSyntaxException: Unknown item 'aether_genesis:dark_swet_ball
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
-[30Mar2025 18:03:41.944] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe ancient_aether:ancient_rune
+[30Mar2025 18:42:02.522] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe ancient_aether:ancient_rune
 com.google.gson.JsonSyntaxException: Unknown item 'ancient_aether:ancient_rune'
 	at net.minecraft.world.item.crafting.ShapedRecipe.m_151280_(ShapedRecipe.java:292) ~[server-1.20.1-20230612.114412-srg.jar%23187!/:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -1167,7 +1167,7 @@ com.google.gson.JsonSyntaxException: Unknown item 'ancient_aether:ancient_rune'
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
-[30Mar2025 18:03:41.954] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe deep_aether:gravitite_ore_from_poison
+[30Mar2025 18:42:02.535] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe deep_aether:gravitite_ore_from_poison
 com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'deep_aether:poison_recipe'
 	at net.minecraft.world.item.crafting.RecipeManager.m_220253_(RecipeManager.java:170) ~[server-1.20.1-20230612.114412-srg.jar%23187!/:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -1196,7 +1196,7 @@ com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'deep_ae
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
-[30Mar2025 18:03:41.967] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe cozy_home:andesite_brick_to_block_recipe
+[30Mar2025 18:42:02.552] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe cozy_home:andesite_brick_to_block_recipe
 com.google.gson.JsonSyntaxException: Unknown item 'cozy_home:andesite_brick'
 	at net.minecraft.world.item.crafting.ShapedRecipe.m_151280_(ShapedRecipe.java:292) ~[server-1.20.1-20230612.114412-srg.jar%23187!/:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -1234,8 +1234,8 @@ com.google.gson.JsonSyntaxException: Unknown item 'cozy_home:andesite_brick'
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
-[30Mar2025 18:03:41.969] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe aether_redux:jellyshroom_hyphae_wall as it's serializer returned null
-[30Mar2025 18:03:41.982] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe cozy_home:spruce_fireplace_recipe
+[30Mar2025 18:42:02.555] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe aether_redux:jellyshroom_hyphae_wall as it's serializer returned null
+[30Mar2025 18:42:02.573] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe cozy_home:spruce_fireplace_recipe
 com.google.gson.JsonSyntaxException: Unknown item 'cozy_home:plank_spruce_0'
 	at net.minecraft.world.item.crafting.ShapedRecipe.m_151280_(ShapedRecipe.java:292) ~[server-1.20.1-20230612.114412-srg.jar%23187!/:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -1273,8 +1273,8 @@ com.google.gson.JsonSyntaxException: Unknown item 'cozy_home:plank_spruce_0'
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
-[30Mar2025 18:03:41.984] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe aether_redux:stripped_fieldsproot_log_wall as it's serializer returned null
-[30Mar2025 18:03:41.985] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe aether_treasure_reforging:phoenix_upgrade_smithing_template
+[30Mar2025 18:42:02.576] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe aether_redux:stripped_fieldsproot_log_wall as it's serializer returned null
+[30Mar2025 18:42:02.576] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe aether_treasure_reforging:phoenix_upgrade_smithing_template
 com.google.gson.JsonSyntaxException: Unknown item 'aether_treasure_reforging:phoenix_upgrade_smithing_template'
 	at net.minecraft.world.item.crafting.ShapedRecipe.m_151280_(ShapedRecipe.java:292) ~[server-1.20.1-20230612.114412-srg.jar%23187!/:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -1312,10 +1312,10 @@ com.google.gson.JsonSyntaxException: Unknown item 'aether_treasure_reforging:pho
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
-[30Mar2025 18:03:41.990] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe aether_redux:crystal_wood_wall as it's serializer returned null
-[30Mar2025 18:03:41.991] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe aether_redux:stripped_crystal_log_wall as it's serializer returned null
-[30Mar2025 18:03:41.992] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe aether_redux:fieldsproot_log_wall as it's serializer returned null
-[30Mar2025 18:03:42.000] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe aether_redux:spore_blight_deep_aether_aether_moss_block_to_blightmoss_block
+[30Mar2025 18:42:02.584] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe aether_redux:crystal_wood_wall as it's serializer returned null
+[30Mar2025 18:42:02.585] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe aether_redux:stripped_crystal_log_wall as it's serializer returned null
+[30Mar2025 18:42:02.586] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe aether_redux:fieldsproot_log_wall as it's serializer returned null
+[30Mar2025 18:42:02.596] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe aether_redux:spore_blight_deep_aether_aether_moss_block_to_blightmoss_block
 com.google.gson.JsonSyntaxException: Invalid block: deep_aether:aether_moss_block
 	at com.aetherteam.nitrogen.recipe.BlockStateRecipeUtil.blockFromJson(BlockStateRecipeUtil.java:239) ~[nitrogen_internals-1.20.1-1.0.12-neoforge.jar%23221!/:1.20.1-1.0.12-neoforge]
 	at com.aetherteam.nitrogen.recipe.BlockStateIngredient.valueFromJson(BlockStateIngredient.java:144) ~[nitrogen_internals-1.20.1-1.0.12-neoforge.jar%23221!/:1.20.1-1.0.12-neoforge]
@@ -1348,10 +1348,10 @@ com.google.gson.JsonSyntaxException: Invalid block: deep_aether:aether_moss_bloc
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
-[30Mar2025 18:03:42.014] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe botanypots:rusticdelight/crop/wild_coffee as it's serializer returned null
-[30Mar2025 18:03:42.018] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe aether_redux:stripped_glacia_log_wall as it's serializer returned null
-[30Mar2025 18:03:42.024] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe botanypots:rusticdelight/crop/wild_cotton as it's serializer returned null
-[30Mar2025 18:03:42.028] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe yuushya:painter_gift_box
+[30Mar2025 18:42:02.621] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe botanypots:rusticdelight/crop/wild_coffee as it's serializer returned null
+[30Mar2025 18:42:02.626] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe aether_redux:stripped_glacia_log_wall as it's serializer returned null
+[30Mar2025 18:42:02.635] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe botanypots:rusticdelight/crop/wild_cotton as it's serializer returned null
+[30Mar2025 18:42:02.643] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe yuushya:painter_gift_box
 com.google.gson.JsonSyntaxException: Unknown item 'yuushya:the_encyclopedia'
 	at net.minecraft.world.item.crafting.ShapedRecipe.m_151280_(ShapedRecipe.java:292) ~[server-1.20.1-20230612.114412-srg.jar%23187!/:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -1389,8 +1389,8 @@ com.google.gson.JsonSyntaxException: Unknown item 'yuushya:the_encyclopedia'
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
-[30Mar2025 18:03:42.031] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe aether_redux:stripped_glacia_wood_wall as it's serializer returned null
-[30Mar2025 18:03:42.037] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe deep_aether:gravitite_ring
+[30Mar2025 18:42:02.648] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe aether_redux:stripped_glacia_wood_wall as it's serializer returned null
+[30Mar2025 18:42:02.657] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe deep_aether:gravitite_ring
 com.google.gson.JsonSyntaxException: Unknown item 'deep_aether:gravitite_ring'
 	at net.minecraftforge.common.crafting.CraftingHelper.getItem(CraftingHelper.java:160) ~[forge-1.20.1-47.3.7-universal.jar%23192!/:?]
 	at net.minecraftforge.common.crafting.CraftingHelper.getItemStack(CraftingHelper.java:186) ~[forge-1.20.1-47.3.7-universal.jar%23192!/:?]
@@ -1423,7 +1423,7 @@ com.google.gson.JsonSyntaxException: Unknown item 'deep_aether:gravitite_ring'
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
-[30Mar2025 18:03:42.050] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe deep_aether:stratus_smithing_template_from_gravitite
+[30Mar2025 18:42:02.669] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe deep_aether:stratus_smithing_template_from_gravitite
 com.google.gson.JsonSyntaxException: Unknown item 'deep_aether:stratus_smithing_template'
 	at net.minecraft.world.item.crafting.ShapedRecipe.m_151280_(ShapedRecipe.java:292) ~[server-1.20.1-20230612.114412-srg.jar%23187!/:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -1461,7 +1461,7 @@ com.google.gson.JsonSyntaxException: Unknown item 'deep_aether:stratus_smithing_
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
-[30Mar2025 18:03:42.068] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe lost_aether_content:gravitite_shield
+[30Mar2025 18:42:02.682] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe lost_aether_content:gravitite_shield
 com.google.gson.JsonSyntaxException: Unknown item 'lost_aether_content:gravitite_shield'
 	at net.minecraftforge.common.crafting.CraftingHelper.getItem(CraftingHelper.java:160) ~[forge-1.20.1-47.3.7-universal.jar%23192!/:?]
 	at net.minecraftforge.common.crafting.CraftingHelper.getItemStack(CraftingHelper.java:186) ~[forge-1.20.1-47.3.7-universal.jar%23192!/:?]
@@ -1494,10 +1494,10 @@ com.google.gson.JsonSyntaxException: Unknown item 'lost_aether_content:gravitite
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
-[30Mar2025 18:03:42.078] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe aether_redux:mouse_ear_soup as it's serializer returned null
-[30Mar2025 18:03:42.088] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe botanypots:rusticdelight/crop/coffee as it's serializer returned null
-[30Mar2025 18:03:42.100] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe aether_redux:stripped_fieldsproot_wood_wall as it's serializer returned null
-[30Mar2025 18:03:42.106] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe deep_aether:stratus_ingot
+[30Mar2025 18:42:02.694] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe aether_redux:mouse_ear_soup as it's serializer returned null
+[30Mar2025 18:42:02.706] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe botanypots:rusticdelight/crop/coffee as it's serializer returned null
+[30Mar2025 18:42:02.730] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe aether_redux:stripped_fieldsproot_wood_wall as it's serializer returned null
+[30Mar2025 18:42:02.740] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe deep_aether:stratus_ingot
 com.google.gson.JsonSyntaxException: Unknown item 'deep_aether:chromatic_aercloud'
 	at net.minecraft.world.item.crafting.ShapedRecipe.m_151280_(ShapedRecipe.java:292) ~[server-1.20.1-20230612.114412-srg.jar%23187!/:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -1535,10 +1535,10 @@ com.google.gson.JsonSyntaxException: Unknown item 'deep_aether:chromatic_aerclou
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
-[30Mar2025 18:03:42.128] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe aether_redux:fieldsproot_wood_wall as it's serializer returned null
-[30Mar2025 18:03:42.129] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe aether_redux:deep_aether_coarse_dirt as it's serializer returned null
-[30Mar2025 18:03:42.132] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe botanypots:rusticdelight/crop/bell_peppers as it's serializer returned null
-[30Mar2025 18:03:42.140] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe aether_treasure_reforging:neptune_upgrade_smithing_template
+[30Mar2025 18:42:02.764] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe aether_redux:fieldsproot_wood_wall as it's serializer returned null
+[30Mar2025 18:42:02.765] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe aether_redux:deep_aether_coarse_dirt as it's serializer returned null
+[30Mar2025 18:42:02.769] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe botanypots:rusticdelight/crop/bell_peppers as it's serializer returned null
+[30Mar2025 18:42:02.776] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe aether_treasure_reforging:neptune_upgrade_smithing_template
 com.google.gson.JsonSyntaxException: Unknown item 'aether_treasure_reforging:neptune_upgrade_smithing_template'
 	at net.minecraft.world.item.crafting.ShapedRecipe.m_151280_(ShapedRecipe.java:292) ~[server-1.20.1-20230612.114412-srg.jar%23187!/:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -1576,65 +1576,65 @@ com.google.gson.JsonSyntaxException: Unknown item 'aether_treasure_reforging:nep
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
-[30Mar2025 18:03:42.142] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe aether_redux:stripped_crystal_wood_wall as it's serializer returned null
-[30Mar2025 18:03:42.144] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe aether_redux:jellyshroom_stem_wall as it's serializer returned null
-[30Mar2025 18:03:42.147] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe aether_redux:glacia_log_wall as it's serializer returned null
-[30Mar2025 18:03:42.152] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe botanypots:rusticdelight/crop/cotton as it's serializer returned null
-[30Mar2025 18:03:42.155] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe aether_redux:enchant_purple_crystal_sapling as it's serializer returned null
-[30Mar2025 18:03:42.162] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 21 recipes
-[30Mar2025 18:03:42.251] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement aether_redux:recipes/genesis_dark_gummy_swet: Unknown item id 'aether_genesis:dark_swet_ball'
-[30Mar2025 18:03:42.316] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement beautify:progression/candelabra: Expected item to be an item, was unknown string 'beautify:lamp_candleabra'
-[30Mar2025 18:03:42.343] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 3951 advancements
-[30Mar2025 18:03:42.368] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 16 curio slots
-[30Mar2025 18:03:42.374] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 9 curio entities
-[30Mar2025 18:03:42.383] [main/WARN] [net.minecraft.core.MappedRegistry/]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:worldgen/biome] are present in data pack: minecraft:generates_luminous_flower
-[30Mar2025 18:03:50.856] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
-[30Mar2025 18:03:50.857] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
-[30Mar2025 18:03:50.857] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
-[30Mar2025 18:03:50.857] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[30Mar2025 18:03:50.957] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
-[30Mar2025 18:03:51.089] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
-[30Mar2025 18:03:51.192] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[30Mar2025 18:03:51.192] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
-[30Mar2025 18:03:51.193] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[30Mar2025 18:03:51.193] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
-[30Mar2025 18:03:51.208] [Server thread/INFO] [journeymap/]: Loading JourneyMap Forge Configs
-[30Mar2025 18:03:51.209] [Thread-1/INFO] [journeymap/]: Loading JourneyMap Forge Configs
-[30Mar2025 18:03:51.210] [Thread-1/INFO] [journeymap/]: Loading JourneyMap Forge Configs
-[30Mar2025 18:03:51.233] [Server thread/WARN] [net.zepalesque.redux.Redux/]: Found already existing holder mysticsbiomes:lavender_meadow from tag forge:is_magical! Replacing value anyway! Old value was 12582892, new is 12251391
-[30Mar2025 18:03:51.233] [Server thread/WARN] [net.zepalesque.redux.Redux/]: Found already existing holder minecraft:snowy_slopes from tag forge:is_cold! Replacing value anyway! Old value was 16774563, new is 13432831
-[30Mar2025 18:03:51.234] [Server thread/WARN] [net.zepalesque.redux.Redux/]: Found already existing holder minecraft:jagged_peaks from tag forge:is_cold! Replacing value anyway! Old value was 16774563, new is 13432831
-[30Mar2025 18:03:51.234] [Server thread/WARN] [net.zepalesque.redux.Redux/]: Found already existing holder minecraft:frozen_peaks from tag forge:is_cold! Replacing value anyway! Old value was 16774563, new is 13432831
-[30Mar2025 18:03:51.234] [Server thread/WARN] [net.zepalesque.redux.Redux/]: Found already existing holder minecraft:the_end from tag forge:is_cold! Replacing value anyway! Old value was 14007039, new is 13432831
-[30Mar2025 18:03:51.235] [Server thread/WARN] [net.zepalesque.redux.Redux/]: Found already existing holder minecraft:small_end_islands from tag forge:is_cold! Replacing value anyway! Old value was 14007039, new is 13432831
-[30Mar2025 18:03:51.235] [Server thread/WARN] [net.zepalesque.redux.Redux/]: Found already existing holder minecraft:end_midlands from tag forge:is_cold! Replacing value anyway! Old value was 14007039, new is 13432831
-[30Mar2025 18:03:51.236] [Server thread/WARN] [net.zepalesque.redux.Redux/]: Found already existing holder minecraft:end_highlands from tag forge:is_cold! Replacing value anyway! Old value was 14007039, new is 13432831
-[30Mar2025 18:03:51.236] [Server thread/WARN] [net.zepalesque.redux.Redux/]: Found already existing holder minecraft:end_barrens from tag forge:is_cold! Replacing value anyway! Old value was 14007039, new is 13432831
-[30Mar2025 18:03:51.236] [Server thread/WARN] [net.zepalesque.redux.Redux/]: Found already existing holder minecraft:savanna_plateau from tag forge:is_plateau! Replacing value anyway! Old value was 16774563, new is 16772502
-[30Mar2025 18:03:51.236] [Server thread/WARN] [net.zepalesque.redux.Redux/]: Found already existing holder minecraft:wooded_badlands from tag forge:is_plateau! Replacing value anyway! Old value was 16774563, new is 16772502
-[30Mar2025 18:03:51.610] [Server thread/INFO] [terrablender/]: Initialized TerraBlender biomes for level stem minecraft:overworld
-[30Mar2025 18:03:51.612] [Server thread/INFO] [terrablender/]: Initialized TerraBlender biomes for level stem aether:the_aether
-[30Mar2025 18:03:51.613] [Server thread/INFO] [terrablender/]: Initialized TerraBlender biomes for level stem minecraft:the_nether
-[30Mar2025 18:03:51.613] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
-[30Mar2025 18:03:55.300] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[30Mar2025 18:03:59.125] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[30Mar2025 18:03:59.183] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[30Mar2025 18:03:59.207] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[30Mar2025 18:03:59.223] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[30Mar2025 18:03:59.237] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[30Mar2025 18:03:59.252] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[30Mar2025 18:03:59.279] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[30Mar2025 18:03:59.305] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[30Mar2025 18:03:59.374] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[30Mar2025 18:03:59.801] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 1%
-[30Mar2025 18:04:00.301] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 40%
-[30Mar2025 18:04:00.748] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 5448 ms
-[30Mar2025 18:04:00.749] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (9.544s)! For help, type "help"
-[30Mar2025 18:04:00.807] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
-[30Mar2025 18:04:02.113] [Server thread/INFO] [net.bettercombat.logic.WeaponRegistry/]: Encoded Weapon Attribute registry size (with package overhead): 57785 bytes (in 6 string chunks with the size of 10000)
-[30Mar2025 18:04:35.509] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Ina[/127.193.163.85:39461] logged in with entity id 139 at (-551.5670588575357, 63.0, 1557.1259945379588)
-[30Mar2025 18:04:35.627] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ina joined the game
-[30Mar2025 18:04:37.788] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2274ms or 45 ticks behind
-[30Mar2025 18:06:57.210] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ina) moved wrongly! 0.30842384637776377
-[30Mar2025 18:18:33.813] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ina has made the advancement [Packing Up!]
-[30Mar2025 18:31:15.163] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ina has made the advancement [Bigger is better]
+[30Mar2025 18:42:02.778] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe aether_redux:stripped_crystal_wood_wall as it's serializer returned null
+[30Mar2025 18:42:02.779] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe aether_redux:jellyshroom_stem_wall as it's serializer returned null
+[30Mar2025 18:42:02.780] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe aether_redux:glacia_log_wall as it's serializer returned null
+[30Mar2025 18:42:02.783] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe botanypots:rusticdelight/crop/cotton as it's serializer returned null
+[30Mar2025 18:42:02.787] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe aether_redux:enchant_purple_crystal_sapling as it's serializer returned null
+[30Mar2025 18:42:02.796] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 21 recipes
+[30Mar2025 18:42:02.912] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement aether_redux:recipes/genesis_dark_gummy_swet: Unknown item id 'aether_genesis:dark_swet_ball'
+[30Mar2025 18:42:02.983] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement beautify:progression/candelabra: Expected item to be an item, was unknown string 'beautify:lamp_candleabra'
+[30Mar2025 18:42:03.011] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 3951 advancements
+[30Mar2025 18:42:03.039] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 16 curio slots
+[30Mar2025 18:42:03.046] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 9 curio entities
+[30Mar2025 18:42:03.096] [main/WARN] [net.minecraft.core.MappedRegistry/]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:worldgen/biome] are present in data pack: minecraft:generates_luminous_flower
+[30Mar2025 18:42:13.371] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
+[30Mar2025 18:42:13.372] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[30Mar2025 18:42:13.372] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[30Mar2025 18:42:13.372] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[30Mar2025 18:42:13.582] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[30Mar2025 18:42:14.079] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[30Mar2025 18:42:14.201] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[30Mar2025 18:42:14.201] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[30Mar2025 18:42:14.202] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[30Mar2025 18:42:14.202] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[30Mar2025 18:42:14.220] [Server thread/INFO] [journeymap/]: Loading JourneyMap Forge Configs
+[30Mar2025 18:42:14.221] [Thread-1/INFO] [journeymap/]: Loading JourneyMap Forge Configs
+[30Mar2025 18:42:14.254] [Server thread/WARN] [net.zepalesque.redux.Redux/]: Found already existing holder minecraft:snowy_slopes from tag forge:is_cold! Replacing value anyway! Old value was 16774563, new is 13432831
+[30Mar2025 18:42:14.254] [Server thread/WARN] [net.zepalesque.redux.Redux/]: Found already existing holder minecraft:jagged_peaks from tag forge:is_cold! Replacing value anyway! Old value was 16774563, new is 13432831
+[30Mar2025 18:42:14.254] [Server thread/WARN] [net.zepalesque.redux.Redux/]: Found already existing holder minecraft:frozen_peaks from tag forge:is_cold! Replacing value anyway! Old value was 16774563, new is 13432831
+[30Mar2025 18:42:14.255] [Server thread/WARN] [net.zepalesque.redux.Redux/]: Found already existing holder minecraft:savanna_plateau from tag forge:is_plateau! Replacing value anyway! Old value was 16774563, new is 16772502
+[30Mar2025 18:42:14.255] [Server thread/WARN] [net.zepalesque.redux.Redux/]: Found already existing holder minecraft:wooded_badlands from tag forge:is_plateau! Replacing value anyway! Old value was 16774563, new is 16772502
+[30Mar2025 18:42:14.255] [Server thread/WARN] [net.zepalesque.redux.Redux/]: Found already existing holder minecraft:the_end from tag minecraft:is_end! Replacing value anyway! Old value was 13432831, new is 14007039
+[30Mar2025 18:42:14.256] [Server thread/WARN] [net.zepalesque.redux.Redux/]: Found already existing holder minecraft:end_highlands from tag minecraft:is_end! Replacing value anyway! Old value was 13432831, new is 14007039
+[30Mar2025 18:42:14.256] [Server thread/WARN] [net.zepalesque.redux.Redux/]: Found already existing holder minecraft:end_midlands from tag minecraft:is_end! Replacing value anyway! Old value was 13432831, new is 14007039
+[30Mar2025 18:42:14.258] [Server thread/WARN] [net.zepalesque.redux.Redux/]: Found already existing holder minecraft:small_end_islands from tag minecraft:is_end! Replacing value anyway! Old value was 13432831, new is 14007039
+[30Mar2025 18:42:14.258] [Server thread/WARN] [net.zepalesque.redux.Redux/]: Found already existing holder minecraft:end_barrens from tag minecraft:is_end! Replacing value anyway! Old value was 13432831, new is 14007039
+[30Mar2025 18:42:14.258] [Server thread/WARN] [net.zepalesque.redux.Redux/]: Found already existing holder mysticsbiomes:lavender_meadow from tag forge:is_lush! Replacing value anyway! Old value was 12251391, new is 12582892
+[30Mar2025 18:42:14.523] [Server thread/INFO] [terrablender/]: Initialized TerraBlender biomes for level stem minecraft:the_nether
+[30Mar2025 18:42:14.525] [Server thread/INFO] [terrablender/]: Initialized TerraBlender biomes for level stem aether:the_aether
+[30Mar2025 18:42:14.766] [Server thread/INFO] [terrablender/]: Initialized TerraBlender biomes for level stem minecraft:overworld
+[30Mar2025 18:42:14.767] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[30Mar2025 18:42:19.662] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[30Mar2025 18:42:22.975] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[30Mar2025 18:42:22.977] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[30Mar2025 18:42:22.979] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[30Mar2025 18:42:22.979] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[30Mar2025 18:42:23.133] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[30Mar2025 18:42:23.149] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[30Mar2025 18:42:23.169] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[30Mar2025 18:42:23.187] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[30Mar2025 18:42:23.669] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[30Mar2025 18:42:24.167] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[30Mar2025 18:42:24.665] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[30Mar2025 18:42:24.943] [Netty Epoll Server IO #1/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
+[30Mar2025 18:42:25.175] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 13%
+[30Mar2025 18:42:25.237] [Netty Epoll Server IO #2/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
+[30Mar2025 18:42:25.664] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 71%
+[30Mar2025 18:42:25.974] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 6310 ms
+[30Mar2025 18:42:25.975] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (11.760s)! For help, type "help"
+[30Mar2025 18:42:26.040] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[30Mar2025 18:42:27.722] [Server thread/INFO] [net.bettercombat.logic.WeaponRegistry/]: Encoded Weapon Attribute registry size (with package overhead): 57785 bytes (in 6 string chunks with the size of 10000)
+[30Mar2025 18:43:04.946] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Ina[/127.193.163.85:52279] logged in with entity id 138 at (-559.6999999880791, 64.0, 1749.7294971337667)
+[30Mar2025 18:43:05.081] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ina joined the game
+[30Mar2025 18:43:07.298] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2375ms or 47 ticks behind
