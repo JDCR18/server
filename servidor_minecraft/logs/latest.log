@@ -1660,3 +1660,5 @@ com.google.gson.JsonSyntaxException: Unknown item 'aether_treasure_reforging:nep
 [30Mar2025 19:16:52.650] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'iceandfire:graveyard' in chunk [-107, 20], discarding
 [30Mar2025 19:16:52.683] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'iceandfire:graveyard' in chunk [-106, 20], discarding
 [30Mar2025 19:16:52.688] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'iceandfire:graveyard' in chunk [-105, 20], discarding
+[30Mar2025 19:25:48.795] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id iceandfire:ghost_chest
+[30Mar2025 19:31:49.118] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Unknown structure start: iceandfire:graveyard
