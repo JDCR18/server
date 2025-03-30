@@ -3053,9 +3053,45 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/polished_diorite": {
+    "criteria": {
+      "has_diorite": "2025-03-30 19:36:31 +0000"
+    },
+    "done": true
+  },
   "rusticdelight:recipes/misc/cotton_seeds_bag_from_cotton_seeds": {
     "criteria": {
       "has_cotton_seeds": "2025-03-30 19:27:30 +0000"
+    },
+    "done": true
+  },
+  "somemoreblocks:recipes/building_blocks/diorite_tile_stairs_from_diorite_stonecutting": {
+    "criteria": {
+      "has_needed_items": "2025-03-30 19:36:31 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_rabbit": {
+    "criteria": {
+      "has_rabbit": "2025-03-30 19:39:30 +0000"
+    },
+    "done": true
+  },
+  "somemoreblocks:recipes/building_blocks/diorite_bricks_from_diorite_stonecutting": {
+    "criteria": {
+      "has_needed_items": "2025-03-30 19:36:31 +0000"
+    },
+    "done": true
+  },
+  "somemoreblocks:recipes/building_blocks/diorite_pillar_from_diorite_stonecutting": {
+    "criteria": {
+      "has_needed_items": "2025-03-30 19:36:31 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_rabbit_from_campfire_cooking": {
+    "criteria": {
+      "has_rabbit": "2025-03-30 19:39:30 +0000"
     },
     "done": true
   },
@@ -3065,15 +3101,93 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/polished_diorite_stairs_from_diorite_stonecutting": {
+    "criteria": {
+      "has_diorite": "2025-03-30 19:36:31 +0000"
+    },
+    "done": true
+  },
+  "somemoreblocks:recipes/building_blocks/diorite_tile_slab_from_diorite_stonecutting": {
+    "criteria": {
+      "has_needed_items": "2025-03-30 19:36:31 +0000"
+    },
+    "done": true
+  },
+  "somemoreblocks:recipes/building_blocks/diorite_brick_wall_from_diorite_stonecutting": {
+    "criteria": {
+      "has_needed_items": "2025-03-30 19:36:31 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/diorite_stairs_from_diorite_stonecutting": {
+    "criteria": {
+      "has_diorite": "2025-03-30 19:36:31 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/andesite": {
+    "criteria": {
+      "has_stone": "2025-03-30 19:36:31 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_diorite_slab_from_diorite_stonecutting": {
+    "criteria": {
+      "has_diorite": "2025-03-30 19:36:31 +0000"
+    },
+    "done": true
+  },
   "rusticdelight:recipes/misc/string_from_cotton_boll": {
     "criteria": {
       "has_cotton_boll": "2025-03-30 19:27:37 +0000"
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/diorite_slab": {
+    "criteria": {
+      "has_diorite": "2025-03-30 19:36:31 +0000"
+    },
+    "done": true
+  },
   "rusticdelight:recipes/misc/paper_from_cotton_boll": {
     "criteria": {
       "has_cotton_boll": "2025-03-30 19:27:37 +0000"
+    },
+    "done": true
+  },
+  "somemoreblocks:recipes/building_blocks/diorite_brick_stairs_from_diorite_stonecutting": {
+    "criteria": {
+      "has_needed_items": "2025-03-30 19:36:31 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_rabbit_from_smoking": {
+    "criteria": {
+      "has_rabbit": "2025-03-30 19:39:30 +0000"
+    },
+    "done": true
+  },
+  "somemoreblocks:recipes/building_blocks/diorite_tiles_from_diorite_stonecutting": {
+    "criteria": {
+      "has_needed_items": "2025-03-30 19:36:31 +0000"
+    },
+    "done": true
+  },
+  "somemoreblocks:recipes/building_blocks/chiseled_diorite_bricks_from_diorite_stonecutting": {
+    "criteria": {
+      "has_needed_items": "2025-03-30 19:36:31 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/diorite_wall": {
+    "criteria": {
+      "has_diorite": "2025-03-30 19:36:31 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/diorite_wall_from_diorite_stonecutting": {
+    "criteria": {
+      "has_diorite": "2025-03-30 19:36:31 +0000"
     },
     "done": true
   },
@@ -3086,6 +3200,42 @@
   "rusticdelight:recipes/cooking/cooking_oil": {
     "criteria": {
       "has_any_ingredient": "2025-03-30 19:27:30 +0000"
+    },
+    "done": true
+  },
+  "somemoreblocks:recipes/building_blocks/diorite_brick_slab_from_diorite_stonecutting": {
+    "criteria": {
+      "has_needed_items": "2025-03-30 19:36:31 +0000"
+    },
+    "done": true
+  },
+  "somemoreblocks:recipes/building_blocks/smooth_diorite": {
+    "criteria": {
+      "has_needed_items": "2025-03-30 19:36:31 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_diorite_from_diorite_stonecutting": {
+    "criteria": {
+      "has_diorite": "2025-03-30 19:36:31 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/diorite_slab_from_diorite_stonecutting": {
+    "criteria": {
+      "has_diorite": "2025-03-30 19:36:31 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/diorite_stairs": {
+    "criteria": {
+      "has_diorite": "2025-03-30 19:36:31 +0000"
+    },
+    "done": true
+  },
+  "somemoreblocks:recipes/building_blocks/diorite_tile_wall_from_diorite_stonecutting": {
+    "criteria": {
+      "has_needed_items": "2025-03-30 19:36:31 +0000"
     },
     "done": true
   },
