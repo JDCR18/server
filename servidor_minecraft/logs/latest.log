@@ -844,3 +844,21 @@ com.google.gson.JsonSyntaxException: Unknown item 'cozy_home:plank_spruce_0'
 [30Mar2025 00:38:45.662] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=258, y=-50, z=149}
 [30Mar2025 00:44:12.163] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: danae1108 has made the advancement [Suit Up]
 [30Mar2025 00:44:30.964] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ina has made the advancement [Suit Up]
+[30Mar2025 00:45:00.867] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: danae1108 has made the advancement [Isn't It Iron Pick]
+[30Mar2025 00:47:03.168] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ina has made the advancement [Diamonds!]
+[30Mar2025 00:47:14.270] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ina has made the advancement [Acquire Hardware]
+[30Mar2025 00:51:28.126] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-644, y=110, z=-155} BlockPos{x=-646, y=108, z=-156}
+[30Mar2025 00:51:28.176] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-644, y=110, z=-155} BlockPos{x=-646, y=108, z=-156}
+[30Mar2025 00:51:30.177] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-646, y=109, z=-164} BlockPos{x=-645, y=107, z=-165}
+[30Mar2025 00:51:30.225] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-646, y=109, z=-164} BlockPos{x=-645, y=107, z=-165}
+[30Mar2025 00:51:56.170] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ina lost connection: Disconnected
+[30Mar2025 00:51:56.171] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ina left the game
+[30Mar2025 00:51:56.266] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
+[30Mar2025 00:53:02.325] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-654, y=109, z=-161} BlockPos{x=-655, y=107, z=-160}
+[30Mar2025 00:53:02.374] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-654, y=109, z=-161} BlockPos{x=-655, y=107, z=-160}
+[30Mar2025 00:53:02.426] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-654, y=109, z=-161} BlockPos{x=-655, y=107, z=-160}
+[30Mar2025 00:53:27.538] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Ina[/127.193.163.85:52537] logged in with entity id 8238 at (-848.2261870823471, 118.0, 134.24777275738575)
+[30Mar2025 00:53:27.545] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ina joined the game
+[30Mar2025 00:57:50.319] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: danae1108 has made the advancement [Diamonds!]
+[30Mar2025 01:03:04.168] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ina has made the advancement [Stone Age]
+[30Mar2025 01:04:49.878] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ina has made the advancement [Getting an Upgrade]
